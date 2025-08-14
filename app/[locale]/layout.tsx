@@ -57,6 +57,9 @@ export default async function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" />
 
+        {/* Plausible Analytics */}
+        <script defer data-domain="wplacepixel.art" src="https://plausible.io/js/script.js"></script>
+
         {locales &&
           locales.map((loc) => (
             <link
