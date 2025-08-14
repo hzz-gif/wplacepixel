@@ -1,7 +1,7 @@
 import Pricing from "@/components/blocks/pricing";
 import { getPricingPage } from "@/services/page";
 
-
+export const runtime = 'edge';
 
 export default async function PricingPage({
   params,

@@ -15,7 +15,11 @@ export const useAppContext = () => useContext(AppContext);
 
 export const AppContextProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<string>(() => {
-    return process.env.NEXT_PUBLIC_DEFAULT_THEME || "";
+    // Only access environment variables on client side for Edge Runtime compatibility
+    if (typeof window !== 'undefined') {
+      return process.env.NEXT_PUBLIC_DEFAULT_THEME || "";
+    }
+    return "";
   });
 
   const [showFeedback, setShowFeedback] = useState<boolean>(false);

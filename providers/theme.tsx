@@ -14,6 +14,11 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
   const { theme, setTheme } = useAppContext();
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') {
+      return;
+    }
+
     const themeInCache = cacheGet(CacheKey.Theme);
     if (themeInCache) {
       // theme setted

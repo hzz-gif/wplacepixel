@@ -2,6 +2,11 @@ import { getTimestamp } from "./time";
 
 // get data from cache
 export const cacheGet = (key: string): string | null => {
+  // Check if we're in a browser environment
+  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+    return null;
+  }
+
   let valueWithExpires = localStorage.getItem(key);
   if (!valueWithExpires) {
     return null;
@@ -31,17 +36,29 @@ export const cacheGet = (key: string): string | null => {
 // set data to cache
 // expiresAt: absolute timestamp, -1 means no expire
 export const cacheSet = (key: string, value: string, expiresAt: number) => {
-  const valueWithExpires = expiresAt + ":" + value;
+  // Check if we're in a browser environment
+  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+    return;
+  }
 
+  const valueWithExpires = expiresAt + ":" + value;
   localStorage.setItem(key, valueWithExpires);
 };
 
 // remove data from cache
 export const cacheRemove = (key: string) => {
+  // Check if we're in a browser environment
+  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+    return;
+  }
   localStorage.removeItem(key);
 };
 
 // clear all datas from cache
 export const cacheClear = () => {
+  // Check if we're in a browser environment
+  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+    return;
+  }
   localStorage.clear();
 };
