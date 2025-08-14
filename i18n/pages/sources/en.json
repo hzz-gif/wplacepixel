@@ -1,0 +1,128 @@
+{
+  "sources": {
+    "name": "sources",
+    "title": "Resources & Sources",
+    "description": "Useful resources for pixel art creation, wplace.live community, and related tools.",
+    "categories": [
+      {
+        "title": "WPlace.live Community",
+        "description": "Official resources and community links for wplace.live collaborative pixel art platform.",
+        "icon": "Globe",
+        "items": [
+          {
+            "title": "WPlace.live",
+            "description": "The main collaborative pixel art platform where you can place your converted artwork.",
+            "url": "https://wplace.live",
+            "target": "_blank",
+            "tags": ["Official", "Platform", "Collaborative"]
+          },
+          {
+            "title": "WPlace Discord",
+            "description": "Join the community Discord server to connect with other pixel artists and get help.",
+            "url": "https://discord.gg/wplace",
+            "target": "_blank",
+            "tags": ["Community", "Discord", "Support"]
+          },
+          {
+            "title": "WPlace Reddit",
+            "description": "Community discussions, artwork showcases, and tips on Reddit.",
+            "url": "https://reddit.com/r/wplace",
+            "target": "_blank",
+            "tags": ["Community", "Reddit", "Discussion"]
+          }
+        ]
+      },
+      {
+        "title": "Pixel Art Tools & Resources",
+        "description": "Additional tools and resources for creating and editing pixel art.",
+        "icon": "Palette",
+        "items": [
+          {
+            "title": "Aseprite",
+            "description": "Professional pixel art tool for creating sprites and animations.",
+            "url": "https://www.aseprite.org/",
+            "target": "_blank",
+            "tags": ["Tool", "Professional", "Animation"]
+          },
+          {
+            "title": "Piskel",
+            "description": "Free online pixel art and animated sprite editor.",
+            "url": "https://www.piskelapp.com/",
+            "target": "_blank",
+            "tags": ["Free", "Online", "Editor"]
+          },
+          {
+            "title": "Lospec Palette List",
+            "description": "Curated list of pixel art color palettes for your projects.",
+            "url": "https://lospec.com/palette-list",
+            "target": "_blank",
+            "tags": ["Palettes", "Colors", "Reference"]
+          },
+          {
+            "title": "Pixel Art Tutorials",
+            "description": "Comprehensive tutorials for learning pixel art techniques.",
+            "url": "https://blog.studiominiboss.com/pixelart",
+            "target": "_blank",
+            "tags": ["Tutorial", "Learning", "Techniques"]
+          }
+        ]
+      },
+      {
+        "title": "Development & Code",
+        "description": "Open source projects and development resources related to pixel art and collaborative platforms.",
+        "icon": "Code",
+        "items": [
+          {
+            "title": "Canvas API Documentation",
+            "description": "MDN documentation for HTML5 Canvas API used in pixel art manipulation.",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+            "target": "_blank",
+            "tags": ["Documentation", "Canvas", "Web API"]
+          },
+          {
+            "title": "Image Processing Libraries",
+            "description": "JavaScript libraries for image processing and pixel manipulation.",
+            "url": "https://github.com/topics/image-processing",
+            "target": "_blank",
+            "tags": ["GitHub", "Libraries", "JavaScript"]
+          },
+          {
+            "title": "Pixel Art Algorithms",
+            "description": "Research and algorithms for pixel art generation and scaling.",
+            "url": "https://en.wikipedia.org/wiki/Pixel-art_scaling_algorithms",
+            "target": "_blank",
+            "tags": ["Algorithms", "Research", "Scaling"]
+          }
+        ]
+      },
+      {
+        "title": "Learning Resources",
+        "description": "Educational content for improving your pixel art skills and understanding collaborative art.",
+        "icon": "Book",
+        "items": [
+          {
+            "title": "Pixel Art Academy",
+            "description": "Online courses and tutorials for mastering pixel art creation.",
+            "url": "https://pixelartacademy.com/",
+            "target": "_blank",
+            "tags": ["Education", "Courses", "Academy"]
+          },
+          {
+            "title": "Color Theory Guide",
+            "description": "Understanding color theory for better pixel art color choices.",
+            "url": "https://www.adobe.com/creativecloud/design/discover/color-theory.html",
+            "target": "_blank",
+            "tags": ["Color Theory", "Design", "Guide"]
+          },
+          {
+            "title": "Collaborative Art History",
+            "description": "Learn about the history and evolution of collaborative digital art.",
+            "url": "https://en.wikipedia.org/wiki/Collaborative_art",
+            "target": "_blank",
+            "tags": ["History", "Collaborative", "Art"]
+          }
+        ]
+      }
+    ]
+  }
+}

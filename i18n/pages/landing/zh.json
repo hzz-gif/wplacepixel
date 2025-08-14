@@ -1,0 +1,487 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "WPlace Pixel",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "WPlace Pixel"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特点",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "转换工具",
+          "url": "/#convert",
+          "icon": "RiImageEditLine"
+        },
+        {
+          "title": "作品展示",
+          "url": "/showcase",
+          "icon": "RiApps2Line"
+        },
+        {
+          "title": "Blue Marble",
+          "url": "/blue-marble",
+          "icon": "RiGlobalLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "前往 WPlace",
+        "url": "https://wplace.live/",
+        "target": "_blank",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "#1 Wplace 像素艺术工具",
+    "highlight_text": "Wplace 像素艺术",
+    "description": "将您的照片转换为完美适配 wplace.live 的像素艺术。<br/>在世界地图上创建令人惊叹的协作艺术作品。",
+    "announcement": {
+      "label": "新功能",
+      "title": "🎨 专为 WPlace.live 设计",
+      "url": "/#convert"
+    },
+
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "基于现代网络技术构建",
+    "items": [
+      {
+        "title": "Canvas API",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Canvas API"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "图像处理",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "图像处理"
+        }
+      },
+      {
+        "title": "WPlace.live",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "WPlace.live"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是 WPlace Pixel",
+    "label": "关于",
+    "description": "想把你最喜欢的照片变成像素艺术并与全世界分享吗？WPlace Pixel 让你轻松将任何图片转换成精美的像素艺术，完美适配 wplace.live 全球协作画布，在那里数百万人正在真实世界地图上一起创作！WPlace Pixel 是你加入这个令人惊叹的创意社区的门户。",
+    "image": {
+      "src": "/imgs/features/wplace-canvas.jpg"
+    },
+    "items": [
+      {
+        "title": "智能转换",
+        "description": "我们的聪明算法知道如何将你的照片变成惊艳的像素艺术，同时保留所有让你的图片特别的重要细节。",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "WPlace 专用",
+        "description": "每个 WPlace Pixel 作品都完美适配 wplace.live - 只需下载就能在世界地图上与数百万其他艺术家一起创作！",
+        "icon": "RiMapPin2Line"
+      },
+      {
+        "title": "超级快速",
+        "description": "无需学习复杂软件或具备艺术技能。只需上传照片，点击转换，嘭 - 几秒钟内就有像素艺术魔法！",
+        "icon": "RiFlashlightLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么使用 WPlace Pixel 转换器",
+    "label": "优势",
+    "description": "WPlace Pixel 是在 wplace.live 上创建协作像素艺术的完美工具 - 快速、简单、优化。WPlace Pixel 通过专为 wplace.live 社区设计的先进功能来改变您的创作过程。",
+    "items": [
+      {
+        "title": "完美的 WPlace Pixel 协作",
+        "description": "WPlace Pixel 将照片转换为理想的像素艺术，适合在 wplace.live 世界地图上协作绘制。WPlace Pixel 确保您的艺术作品与全球协作画布无缝集成，让使用 WPlace Pixel 的艺术家们更容易协调合作。",
+        "icon": "RiTeamLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "高质量的 WPlace Pixel 输出",
+        "description": "WPlace Pixel 使用先进算法保留重要细节，同时创建清晰、可识别的像素艺术。每次 WPlace Pixel 转换都能保持原始图像的精髓，同时为 wplace.live 平台进行优化。",
+        "icon": "RiImageEditLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "简单的 WPlace Pixel 创作",
+        "description": "WPlace Pixel 具有简单的拖放界面 - 无需技术技能即可创建令人惊叹的像素艺术。WPlace Pixel 让像素艺术创作对每个人都触手可及，从初学者到想要为 wplace.live 做贡献的经验丰富的艺术家。",
+        "icon": "RiMouseLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "如何创建 WPlace 像素艺术",
+    "description": "通过四个简单步骤将照片转换为像素艺术：",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "上传照片",
+        "description": "拖放照片或点击从设备选择。支持 JPG、PNG 和其他格式。",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "调整设置",
+        "description": "选择像素大小、调色板和其他选项来自定义像素艺术输出。",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "生成像素艺术",
+        "description": "点击转换，观看照片在几秒钟内转换为美丽的像素艺术。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "在 WPlace.live 使用",
+        "description": "下载像素艺术并放置在 wplace.live 上，与全世界的人协作。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "WPlace 像素转换器核心功能",
+    "description": "在 wplace.live 上创建完美像素艺术协作所需的一切。",
+    "items": [
+      {
+        "title": "智能像素转换",
+        "description": "先进算法智能地将照片转换为像素艺术，同时保留关键细节。",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "多种输出尺寸",
+        "description": "选择各种像素尺寸以匹配您在 wplace.live 画布上的需求。",
+        "icon": "RiAspectRatioLine"
+      },
+      {
+        "title": "颜色优化",
+        "description": "智能颜色减少和调色板优化，创建清晰、鲜艳的像素艺术。",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "即时预览",
+        "description": "实时预览像素艺术转换，可调整设置。",
+        "icon": "RiEyeLine"
+      },
+      {
+        "title": "WPlace 集成",
+        "description": "输出格式专门优化，便于在 wplace.live 世界地图上轻松放置。",
+        "icon": "RiMapPin2Line"
+      },
+      {
+        "title": "免费无限制",
+        "description": "转换任意数量的照片，完全免费，无任何限制。",
+        "icon": "RiInfinityLine"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "统计",
+    "title": "艺术家喜爱 WPlace 像素转换器",
+    "description": "用于创建令人惊叹的协作艺术。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "已转换照片",
+        "label": "1000+",
+        "description": "张图片"
+      },
+      {
+        "title": "创建像素艺术",
+        "label": "500+",
+        "description": "件作品"
+      },
+      {
+        "title": "转换时间",
+        "label": "3",
+        "description": "秒内"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "艺术家如何评价 WPlace 像素转换器",
+    "description": "听听使用我们工具进行 wplace.live 协作的艺术家和创作者怎么说。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "李小明",
+        "label": "数字艺术家",
+        "description": "WPlace Pixel 转换器太棒了！我可以在几秒钟内将照片转换为完美的 wplace.live 像素艺术。WPlace Pixel 质量令人难以置信，使用起来非常简单。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "陈小雅",
+        "label": "WPlace 社区领袖",
+        "description": "我们社区喜欢 WPlace Pixel！它让在 wplace.live 上创建协作艺术变得如此简单。WPlace Pixel 像素艺术质量对我们的项目来说是完美的。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "王大伟",
+        "label": "像素艺术爱好者",
+        "description": "我试过很多像素艺术工具，但 WPlace Pixel 专门为 wplace.live 设计，效果显而易见。WPlace Pixel 输出总是完美适合协作绘制。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "刘老师",
+        "label": "美术教师",
+        "description": "我用 WPlace Pixel 教学生像素艺术和协作创作。WPlace Pixel 非常适合向他们介绍 wplace.live 社区艺术。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "金志强",
+        "label": "游戏开发者",
+        "description": "作为游戏开发者，我欣赏好的像素艺术工具。WPlace Pixel 创建的像素艺术干净、专业，非常适合 wplace.live。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "王小丽",
+        "label": "社区艺术家",
+        "description": "我使用 WPlace Pixel 在 wplace.live 上创建了数十件协作艺术作品。WPlace Pixel 已经成为我创作流程中不可或缺的一部分。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "关于 WPlace 像素转换器的常见问题",
+    "description": "还有其他问题？访问 wplace.live 社区或联系我们。",
+    "items": [
+      {
+        "title": "什么是 WPlace Pixel 转换器，它是如何工作的？",
+        "description": "WPlace Pixel 转换器是一个免费工具，将您的照片转换为专为 wplace.live 协作画布优化的像素艺术。WPlace Pixel 使用先进算法转换图像，同时保留重要细节和颜色。"
+      },
+      {
+        "title": "使用 WPlace Pixel 转换器需要任何技术技能吗？",
+        "description": "完全不需要！WPlace Pixel 转换器设计得非常用户友好。只需上传照片，根据需要调整 WPlace Pixel 设置，然后点击转换。无需技术知识或软件安装。"
+      },
+      {
+        "title": "支持哪些图像格式？",
+        "description": "WPlace Pixel 支持所有常见的图像格式，包括 JPG、PNG、GIF、BMP 和 WebP。WPlace Pixel 自动处理不同文件类型并优化它们进行像素艺术转换。"
+      },
+      {
+        "title": "转换一张照片需要多长时间？",
+        "description": "WPlace Pixel 转换几乎是即时的！大多数照片在 2-3 秒内就能转换为像素艺术。确切时间取决于图像大小和复杂性，但使用 WPlace Pixel 您永远不会等待超过几秒钟。"
+      },
+      {
+        "title": "WPlace Pixel 转换器真的免费使用吗？",
+        "description": "是的，WPlace Pixel 完全免费！没有隐藏费用、订阅费或转换限制。您可以使用 WPlace Pixel 转换任意数量的照片，没有任何限制或水印。"
+      },
+      {
+        "title": "如何在 wplace.live 上使用像素艺术？",
+        "description": "使用 WPlace Pixel 转换照片后，下载像素艺术图像。然后访问 wplace.live，在世界地图上找到合适的位置，通过逐像素绘制来仔细放置您的像素艺术。WPlace Pixel 输出专为此过程优化。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "创建您的第一个 WPlace 像素艺术",
+    "description": "开始转换照片，加入协作艺术社区。",
+    "buttons": [
+      {
+        "title": "立即转换照片",
+        "url": "/#convert",
+        "target": "_self",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "访问 WPlace.live",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "WPlace Pixel",
+      "description": "WPlace 像素转换器将您的照片转换为完美适配 wplace.live 协作画布的像素艺术。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "WPlace Pixel"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • WPlace Pixel 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "工具",
+          "children": [
+            {
+              "title": "转换器",
+              "url": "/#convert",
+              "target": "_self"
+            },
+            {
+              "title": "作品展示",
+              "url": "/showcase",
+              "target": "_self"
+            },
+            {
+              "title": "功能特点",
+              "url": "/#feature",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "社区",
+          "children": [
+            {
+              "title": "WPlace.live",
+              "url": "https://wplace.live",
+              "target": "_blank"
+            },
+            {
+              "title": "像素艺术指南",
+              "url": "/#usage",
+              "target": "_self"
+            },
+            {
+              "title": "常见问题",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "相关链接",
+          "children": [
+            {
+              "title": "WPlace.live",
+              "url": "https://wplace.live",
+              "target": "_blank"
+            },
+            {
+              "title": "像素艺术工具",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "艺术社区",
+              "url": "/showcase",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "WPlace.live",
+          "icon": "RiMapPin2Line",
+          "url": "https://wplace.live",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/wplace-pixel",
+          "target": "_blank"
+        },
+        {
+          "title": "社区",
+          "icon": "RiTeamLine",
+          "url": "https://wplace.live",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@wplace-pixel.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

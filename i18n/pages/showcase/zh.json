@@ -1,0 +1,90 @@
+{
+  "showcase": {
+    "name": "showcase",
+    "title": "像素艺术画廊 - 使用 WPlace 像素转换器创建",
+    "description": "我们社区为 wplace.live 创建的精彩像素艺术",
+    "items": [
+      {
+        "title": "日落风景",
+        "description": "美丽的日落转换为像素艺术",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "城市天际线",
+        "description": "像素艺术风格的城市景观",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "自然场景",
+        "description": "森林转换为协作像素艺术",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "肖像艺术",
+        "description": "像素风格的角色肖像",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "抽象设计",
+        "description": "创意抽象像素艺术",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "动物艺术",
+        "description": "像素艺术形式的可爱动物",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "太空主题",
+        "description": "宇宙场景转换为像素",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "复古游戏",
+        "description": "经典游戏风格像素艺术",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      },
+      {
+        "title": "美食艺术",
+        "description": "像素风格的美味食物",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/9.png"
+        }
+      }
+    ]
+  }
+}

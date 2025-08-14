@@ -1,0 +1,487 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "WPlace Pixel",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "WPlace Pixel"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "RiSparkling2Line"
+        },
+        {
+          "title": "Convert",
+          "url": "/#convert",
+          "icon": "RiImageEditLine"
+        },
+        {
+          "title": "Gallery",
+          "url": "/showcase",
+          "icon": "RiApps2Line"
+        },
+        {
+          "title": "Blue Marble",
+          "url": "/blue-marble",
+          "icon": "RiGlobalLine"
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Go to WPlace",
+        "url": "https://wplace.live/",
+        "target": "_blank",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": false,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "#1 Wplace Pixel Art Tool",
+    "highlight_text": "Wplace Pixel Art",
+    "description": "Transform your photos into pixel art perfect for wplace.live.<br/>Create stunning collaborative artwork on the world map.",
+    "announcement": {
+      "label": "NEW",
+      "title": "🎨 Perfect for WPlace.live",
+      "url": "/#convert"
+    },
+
+    "show_happy_users": false,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "Powered by modern web technologies",
+    "items": [
+      {
+        "title": "Canvas API",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Canvas API"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "Image Processing",
+        "image": {
+          "src": "/imgs/logos/shadcn.svg",
+          "alt": "Image Processing"
+        }
+      },
+      {
+        "title": "WPlace.live",
+        "image": {
+          "src": "/imgs/logos/vercel.svg",
+          "alt": "WPlace.live"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is WPlace Pixel",
+    "label": "About",
+    "description": "Ever wanted to turn your favorite photo into pixel art and share it with the world? WPlace Pixel makes it super easy to convert any image into beautiful pixel art that's perfect for the global collaborative canvas at wplace.live, where millions of people are painting together on a real-world map! WPlace Pixel is your gateway to joining this amazing creative community.",
+    "image": {
+      "src": "/imgs/features/wplace-canvas.jpg"
+    },
+    "items": [
+      {
+        "title": "Smart Conversion",
+        "description": "Our clever algorithms know exactly how to turn your photos into stunning pixel art while keeping all the important details that make your image special.",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "WPlace Ready",
+        "description": "Every WPlace Pixel creation is perfectly sized and optimized for wplace.live - just download and start painting on the world map with millions of other artists!",
+        "icon": "RiMapPin2Line"
+      },
+      {
+        "title": "Super Fast",
+        "description": "No complicated software to learn or artistic skills needed. Just upload your photo, hit convert, and boom - pixel art magic in seconds!",
+        "icon": "RiFlashlightLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Use WPlace Pixel Converter",
+    "label": "Benefits",
+    "description": "WPlace Pixel is the perfect tool for creating collaborative pixel art on wplace.live - fast, easy, and optimized. WPlace Pixel transforms your creative process with advanced features designed specifically for the wplace.live community.",
+    "items": [
+      {
+        "title": "Perfect WPlace Pixel Collaboration",
+        "description": "WPlace Pixel converts photos to pixel art that's ideal for collaborative drawing on wplace.live world map. WPlace Pixel ensures your artwork integrates seamlessly with the global collaborative canvas, making it easy to coordinate with other artists using WPlace Pixel.",
+        "icon": "RiTeamLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "High Quality WPlace Pixel Output",
+        "description": "WPlace Pixel uses advanced algorithms to preserve important details while creating clean, recognizable pixel art. Every WPlace Pixel conversion maintains the essence of your original image while optimizing it for the wplace.live platform.",
+        "icon": "RiImageEditLine",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Easy WPlace Pixel Creation",
+        "description": "WPlace Pixel features a simple drag-and-drop interface - no technical skills required to create amazing pixel art. WPlace Pixel makes pixel art creation accessible to everyone, from beginners to experienced artists who want to contribute to wplace.live.",
+        "icon": "RiMouseLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Create WPlace Pixel Art",
+    "description": "Convert your photos to pixel art in four simple steps:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Upload Photo",
+        "description": "Drag and drop your photo or click to select from your device. Supports JPG, PNG, and other formats.",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "Adjust Settings",
+        "description": "Choose pixel size, color palette, and other options to customize your pixel art output.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "Generate Pixel Art",
+        "description": "Click convert and watch as your photo transforms into beautiful pixel art in seconds.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Use on WPlace.live",
+        "description": "Download your pixel art and place it on wplace.live to collaborate with others worldwide.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of WPlace Pixel Converter",
+    "description": "Everything you need to create perfect pixel art for wplace.live collaboration.",
+    "items": [
+      {
+        "title": "Smart Pixel Conversion",
+        "description": "Advanced algorithms that intelligently convert photos to pixel art while preserving key details.",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "Multiple Output Sizes",
+        "description": "Choose from various pixel sizes to match your needs on wplace.live canvas.",
+        "icon": "RiAspectRatioLine"
+      },
+      {
+        "title": "Color Optimization",
+        "description": "Intelligent color reduction and palette optimization for clean, vibrant pixel art.",
+        "icon": "RiPaletteLine"
+      },
+      {
+        "title": "Instant Preview",
+        "description": "Real-time preview of your pixel art conversion with adjustable settings.",
+        "icon": "RiEyeLine"
+      },
+      {
+        "title": "WPlace Integration",
+        "description": "Output format optimized specifically for easy placement on wplace.live world map.",
+        "icon": "RiMapPin2Line"
+      },
+      {
+        "title": "Free & Unlimited",
+        "description": "Convert as many photos as you want, completely free with no restrictions.",
+        "icon": "RiInfinityLine"
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "Artists Love WPlace Pixel Converter",
+    "description": "for creating amazing collaborative art.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Photos Converted",
+        "label": "1000+",
+        "description": "Images"
+      },
+      {
+        "title": "Pixel Art Created",
+        "label": "500+",
+        "description": "Artworks"
+      },
+      {
+        "title": "Convert in",
+        "label": "3",
+        "description": "Seconds"
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "What Artists Say About WPlace Pixel Converter",
+    "description": "Hear from artists and creators who use our tool for wplace.live collaboration.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Alex Rivera",
+        "label": "Digital Artist",
+        "description": "WPlace Pixel Converter is amazing! I can turn my photos into perfect pixel art for wplace.live in seconds. The WPlace Pixel quality is incredible and it's so easy to use.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Sarah Chen",
+        "label": "WPlace Community Leader",
+        "description": "Our community loves WPlace Pixel! It makes it so much easier to create collaborative art on wplace.live. The WPlace Pixel art quality is perfect for our projects.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Mike Johnson",
+        "label": "Pixel Art Enthusiast",
+        "description": "I've tried many pixel art tools, but WPlace Pixel is specifically designed for wplace.live and it shows. The WPlace Pixel output is always perfect for collaborative drawing.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "Emma Rodriguez",
+        "label": "Art Teacher",
+        "description": "I use WPlace Pixel to teach my students about pixel art and collaborative creation. WPlace Pixel is perfect for introducing them to wplace.live community art.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "David Kim",
+        "label": "Game Developer",
+        "description": "As a game dev, I appreciate good pixel art tools. WPlace Pixel creates clean, professional-looking pixel art that's perfect for wplace.live.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "Lisa Wang",
+        "label": "Community Artist",
+        "description": "I've created dozens of collaborative artworks on wplace.live using WPlace Pixel. WPlace Pixel has become an essential part of my creative workflow.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions About WPlace Pixel Converter",
+    "description": "Have another question? Visit wplace.live community or contact us.",
+    "items": [
+      {
+        "title": "What is WPlace Pixel Converter and how does it work?",
+        "description": "WPlace Pixel Converter is a free tool that transforms your photos into pixel art optimized for wplace.live collaborative canvas. It uses advanced algorithms to convert images while preserving important details and colors."
+      },
+      {
+        "title": "Do I need any technical skills to use this converter?",
+        "description": "Not at all! Our WPlace Pixel Converter is designed to be user-friendly. Simply upload your photo, adjust WPlace Pixel settings if needed, and click convert. No technical knowledge or software installation required."
+      },
+      {
+        "title": "What image formats are supported?",
+        "description": "Our WPlace Pixel Converter supports all common image formats including JPG, PNG, GIF, BMP, and WebP. WPlace Pixel automatically handles different file types and optimizes them for pixel art conversion."
+      },
+      {
+        "title": "How long does it take to convert a photo?",
+        "description": "WPlace Pixel conversion is almost instant! Most photos are converted to pixel art within 2-3 seconds. The exact time depends on image size and complexity, but with WPlace Pixel you'll never wait more than a few seconds."
+      },
+      {
+        "title": "Is WPlace Pixel Converter really free to use?",
+        "description": "Yes, WPlace Pixel is completely free! There are no hidden costs, subscription fees, or conversion limits. You can use WPlace Pixel to convert as many photos as you want without any restrictions or watermarks."
+      },
+      {
+        "title": "How do I use the pixel art on wplace.live?",
+        "description": "After converting your photo with WPlace Pixel, download the pixel art image. Then visit wplace.live, find a suitable location on the world map, and carefully place your pixel art by drawing it pixel by pixel. WPlace Pixel output is optimized for this process."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Create Your First WPlace Pixel Art",
+    "description": "Start converting photos and join the collaborative art community.",
+    "buttons": [
+      {
+        "title": "Convert Photo Now",
+        "url": "/#convert",
+        "target": "_self",
+        "icon": "RiImageEditLine"
+      },
+      {
+        "title": "Visit WPlace.live",
+        "url": "https://wplace.live",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "WPlace Pixel",
+      "description": "WPlace Pixel Converter transforms your photos into pixel art perfect for wplace.live collaborative canvas.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "WPlace Pixel"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • WPlace Pixel All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "Tools",
+          "children": [
+            {
+              "title": "Converter",
+              "url": "/#convert",
+              "target": "_self"
+            },
+            {
+              "title": "Gallery",
+              "url": "/showcase",
+              "target": "_self"
+            },
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Community",
+          "children": [
+            {
+              "title": "WPlace.live",
+              "url": "https://wplace.live",
+              "target": "_blank"
+            },
+            {
+              "title": "Pixel Art Guide",
+              "url": "/#usage",
+              "target": "_self"
+            },
+            {
+              "title": "FAQ",
+              "url": "/#faq",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Related",
+          "children": [
+            {
+              "title": "WPlace.live",
+              "url": "https://wplace.live",
+              "target": "_blank"
+            },
+            {
+              "title": "Pixel Art Tools",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Art Community",
+              "url": "/showcase",
+              "target": "_self"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "WPlace.live",
+          "icon": "RiMapPin2Line",
+          "url": "https://wplace.live",
+          "target": "_blank"
+        },
+        {
+          "title": "Github",
+          "icon": "RiGithubFill",
+          "url": "https://github.com/wplace-pixel",
+          "target": "_blank"
+        },
+        {
+          "title": "Community",
+          "icon": "RiTeamLine",
+          "url": "https://wplace.live",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@wplace-pixel.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

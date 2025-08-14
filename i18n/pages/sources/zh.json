@@ -1,0 +1,128 @@
+{
+  "sources": {
+    "name": "sources",
+    "title": "资源与链接",
+    "description": "像素艺术创作、wplace.live 社区和相关工具的有用资源。",
+    "categories": [
+      {
+        "title": "WPlace.live 社区",
+        "description": "wplace.live 协作像素艺术平台的官方资源和社区链接。",
+        "icon": "Globe",
+        "items": [
+          {
+            "title": "WPlace.live",
+            "description": "主要的协作像素艺术平台，您可以在这里放置转换后的艺术作品。",
+            "url": "https://wplace.live",
+            "target": "_blank",
+            "tags": ["官方", "平台", "协作"]
+          },
+          {
+            "title": "WPlace Discord",
+            "description": "加入社区 Discord 服务器，与其他像素艺术家联系并获得帮助。",
+            "url": "https://discord.gg/wplace",
+            "target": "_blank",
+            "tags": ["社区", "Discord", "支持"]
+          },
+          {
+            "title": "WPlace Reddit",
+            "description": "Reddit 上的社区讨论、艺术作品展示和技巧分享。",
+            "url": "https://reddit.com/r/wplace",
+            "target": "_blank",
+            "tags": ["社区", "Reddit", "讨论"]
+          }
+        ]
+      },
+      {
+        "title": "像素艺术工具与资源",
+        "description": "用于创建和编辑像素艺术的其他工具和资源。",
+        "icon": "Palette",
+        "items": [
+          {
+            "title": "Aseprite",
+            "description": "用于创建精灵和动画的专业像素艺术工具。",
+            "url": "https://www.aseprite.org/",
+            "target": "_blank",
+            "tags": ["工具", "专业", "动画"]
+          },
+          {
+            "title": "Piskel",
+            "description": "免费的在线像素艺术和动画精灵编辑器。",
+            "url": "https://www.piskelapp.com/",
+            "target": "_blank",
+            "tags": ["免费", "在线", "编辑器"]
+          },
+          {
+            "title": "Lospec 调色板列表",
+            "description": "为您的项目精心策划的像素艺术调色板列表。",
+            "url": "https://lospec.com/palette-list",
+            "target": "_blank",
+            "tags": ["调色板", "颜色", "参考"]
+          },
+          {
+            "title": "像素艺术教程",
+            "description": "学习像素艺术技巧的综合教程。",
+            "url": "https://blog.studiominiboss.com/pixelart",
+            "target": "_blank",
+            "tags": ["教程", "学习", "技巧"]
+          }
+        ]
+      },
+      {
+        "title": "开发与代码",
+        "description": "与像素艺术和协作平台相关的开源项目和开发资源。",
+        "icon": "Code",
+        "items": [
+          {
+            "title": "Canvas API 文档",
+            "description": "用于像素艺术操作的 HTML5 Canvas API 的 MDN 文档。",
+            "url": "https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API",
+            "target": "_blank",
+            "tags": ["文档", "Canvas", "Web API"]
+          },
+          {
+            "title": "图像处理库",
+            "description": "用于图像处理和像素操作的 JavaScript 库。",
+            "url": "https://github.com/topics/image-processing",
+            "target": "_blank",
+            "tags": ["GitHub", "库", "JavaScript"]
+          },
+          {
+            "title": "像素艺术算法",
+            "description": "像素艺术生成和缩放的研究和算法。",
+            "url": "https://zh.wikipedia.org/wiki/%E5%83%8F%E7%B4%A0%E8%89%BA%E6%9C%AF",
+            "target": "_blank",
+            "tags": ["算法", "研究", "缩放"]
+          }
+        ]
+      },
+      {
+        "title": "学习资源",
+        "description": "提高像素艺术技能和理解协作艺术的教育内容。",
+        "icon": "Book",
+        "items": [
+          {
+            "title": "像素艺术学院",
+            "description": "掌握像素艺术创作的在线课程和教程。",
+            "url": "https://pixelartacademy.com/",
+            "target": "_blank",
+            "tags": ["教育", "课程", "学院"]
+          },
+          {
+            "title": "色彩理论指南",
+            "description": "了解色彩理论，为像素艺术选择更好的颜色。",
+            "url": "https://www.adobe.com/cn/creativecloud/design/discover/color-theory.html",
+            "target": "_blank",
+            "tags": ["色彩理论", "设计", "指南"]
+          },
+          {
+            "title": "协作艺术历史",
+            "description": "了解协作数字艺术的历史和演变。",
+            "url": "https://zh.wikipedia.org/wiki/%E5%8D%8F%E4%BD%9C%E8%89%BA%E6%9C%AF",
+            "target": "_blank",
+            "tags": ["历史", "协作", "艺术"]
+          }
+        ]
+      }
+    ]
+  }
+}

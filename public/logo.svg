@@ -1,0 +1,68 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pixel Earth Icon for WPlace -->
+
+  <!-- Earth base (ocean blue) -->
+  <circle cx="32" cy="32" r="28" fill="#1e40af"/>
+  
+  <!-- Land masses (green pixels) -->
+  <!-- North America -->
+  <rect x="16" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="20" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="16" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="20" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="24" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="12" y="24" width="4" height="4" fill="#16a34a"/>
+  <rect x="16" y="24" width="4" height="4" fill="#16a34a"/>
+  <rect x="20" y="24" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- Europe/Africa -->
+  <rect x="32" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="36" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="32" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="36" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="40" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="32" y="24" width="4" height="4" fill="#16a34a"/>
+  <rect x="36" y="24" width="4" height="4" fill="#16a34a"/>
+  <rect x="40" y="24" width="4" height="4" fill="#16a34a"/>
+  <rect x="36" y="28" width="4" height="4" fill="#16a34a"/>
+  <rect x="40" y="28" width="4" height="4" fill="#16a34a"/>
+  <rect x="44" y="28" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- Asia -->
+  <rect x="44" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="48" y="16" width="4" height="4" fill="#16a34a"/>
+  <rect x="44" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="48" y="20" width="4" height="4" fill="#16a34a"/>
+  <rect x="48" y="24" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- South America -->
+  <rect x="20" y="32" width="4" height="4" fill="#16a34a"/>
+  <rect x="24" y="32" width="4" height="4" fill="#16a34a"/>
+  <rect x="20" y="36" width="4" height="4" fill="#16a34a"/>
+  <rect x="24" y="36" width="4" height="4" fill="#16a34a"/>
+  <rect x="20" y="40" width="4" height="4" fill="#16a34a"/>
+  <rect x="24" y="40" width="4" height="4" fill="#16a34a"/>
+  <rect x="24" y="44" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- Australia -->
+  <rect x="44" y="40" width="4" height="4" fill="#16a34a"/>
+  <rect x="48" y="40" width="4" height="4" fill="#16a34a"/>
+  <rect x="44" y="44" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- Small islands -->
+  <rect x="28" y="36" width="4" height="4" fill="#16a34a"/>
+  <rect x="40" y="36" width="4" height="4" fill="#16a34a"/>
+  <rect x="12" y="32" width="4" height="4" fill="#16a34a"/>
+  
+  <!-- Clouds (white pixels for atmosphere) -->
+  <rect x="12" y="12" width="4" height="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="28" y="12" width="4" height="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="52" y="24" width="4" height="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="8" y="36" width="4" height="4" fill="#ffffff" opacity="0.6"/>
+  <rect x="32" y="48" width="4" height="4" fill="#ffffff" opacity="0.6"/>
+  
+  <!-- Highlight (top-left) -->
+  <rect x="16" y="12" width="4" height="4" fill="#3b82f6" opacity="0.8"/>
+  <rect x="20" y="12" width="4" height="4" fill="#3b82f6" opacity="0.6"/>
+  <rect x="12" y="16" width="4" height="4" fill="#3b82f6" opacity="0.6"/>
+</svg>
