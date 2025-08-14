@@ -12,8 +12,6 @@ export default function robots(): MetadataRoute.Robots {
           '/api/',
           '/_next/',
           '/_vercel/',
-          '/admin/',
-          '/my-*',
           '/*?*q=', // Disallow search query parameters
         ],
       },

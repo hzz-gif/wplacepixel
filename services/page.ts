@@ -1,11 +1,7 @@
-import { LandingPage, PricingPage, ShowcasePage, SourcesPage } from "@/types/pages/landing";
+import { LandingPage, ShowcasePage, SourcesPage } from "@/types/pages/landing";
 
 export async function getLandingPage(locale: string): Promise<LandingPage> {
   return (await getPage("landing", locale)) as LandingPage;
-}
-
-export async function getPricingPage(locale: string): Promise<PricingPage> {
-  return (await getPage("pricing", locale)) as PricingPage;
 }
 
 export async function getShowcasePage(locale: string): Promise<ShowcasePage> {
@@ -19,7 +15,7 @@ export async function getSourcesPage(locale: string): Promise<SourcesPage> {
 export async function getPage(
   name: string,
   locale: string
-): Promise<LandingPage | PricingPage | ShowcasePage | SourcesPage> {
+): Promise<LandingPage | ShowcasePage | SourcesPage> {
   try {
     if (locale === "zh-CN") {
       locale = "zh";

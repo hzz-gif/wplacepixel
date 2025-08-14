@@ -4,34 +4,7 @@
     "description": "轻松创建 WPlace 像素艺术。将任何照片转换为专为 wplace.live 协作画布优化的精美像素杰作。加入全球数百万艺术家，几秒钟即可开始创作！",
     "keywords": "WPlace 像素, 像素艺术转换器, WPlace.live, 照片转像素艺术, 协作艺术, 像素艺术生成器"
   },
-  "user": {
-    "sign_in": "登录",
-    "sign_out": "退出登录",
-    "credits": "额度",
-    "api_keys": "API 密钥",
-    "my_orders": "我的订单",
-    "user_center": "用户中心",
-    "admin_system": "管理后台"
-  },
-  "sign_modal": {
-    "sign_in_title": "登录",
-    "sign_in_description": "登录您的账户",
-    "sign_up_title": "注册",
-    "sign_up_description": "创建新账户",
-    "email_title": "邮箱",
-    "email_placeholder": "请输入您的邮箱",
-    "password_title": "密码",
-    "password_placeholder": "请输入您的密码",
-    "forgot_password": "忘记密码？",
-    "or": "或",
-    "continue": "继续",
-    "no_account": "还没有账户？",
-    "email_sign_in": "使用邮箱登录",
-    "google_sign_in": "使用 Google 登录",
-    "github_sign_in": "使用 GitHub 登录",
-    "close_title": "关闭",
-    "cancel_title": "取消"
-  },
+
   "my_orders": {
     "title": "我的订单",
     "description": "在 ShipAny 上购买的订单。",

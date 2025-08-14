@@ -9,7 +9,7 @@ import PixelConverter from "@/components/blocks/pixel-converter";
 import Showcase from "@/components/blocks/showcase";
 import Stats from "@/components/blocks/stats";
 import Testimonial from "@/components/blocks/testimonial";
-import UsageGuide from "@/components/blocks/usage-guide";
+
 import { getLandingPage } from "@/services/page";
 
 export const runtime = 'edge';

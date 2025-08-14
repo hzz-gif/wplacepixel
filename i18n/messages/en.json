@@ -4,34 +4,7 @@
     "description": "Effortlessly create WPlace Pixel art. Transform any image into stunning pixel masterpieces optimized for Wplace. Join millions of artists worldwide and start creating in seconds!",
     "keywords": "WPlace Pixel, Pixel Art Converter, WPlace.live, Photo to Pixel Art, Collaborative Art, Pixel Art Generator"
   },
-  "user": {
-    "sign_in": "Sign In",
-    "sign_out": "Sign Out",
-    "credits": "Credits",
-    "api_keys": "API Keys",
-    "my_orders": "My Orders",
-    "user_center": "User Center",
-    "admin_system": "Admin System"
-  },
-  "sign_modal": {
-    "sign_in_title": "Sign In",
-    "sign_in_description": "Sign in to your account",
-    "sign_up_title": "Sign Up",
-    "sign_up_description": "Create an account",
-    "email_title": "Email",
-    "email_placeholder": "Input your email here",
-    "password_title": "Password",
-    "password_placeholder": "Input your password here",
-    "forgot_password": "Forgot password?",
-    "or": "Or",
-    "continue": "Continue",
-    "no_account": "Don't have an account?",
-    "email_sign_in": "Sign in with Email",
-    "google_sign_in": "Sign in with Google",
-    "github_sign_in": "Sign in with GitHub",
-    "close_title": "Close",
-    "cancel_title": "Cancel"
-  },
+
   "my_orders": {
     "title": "My Orders",
     "description": "orders paid with ShipAny.",
