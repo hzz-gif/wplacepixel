@@ -1,6 +1,5 @@
 import { MetadataRoute } from 'next'
 import { locales } from '@/i18n/locale'
-import { getPostsByLocale, PostStatus } from '@/models/post'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://wplacepixel.art'
@@ -18,11 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
       changeFreq: 'monthly' as const,
     },
-    {
-      url: '/posts',
-      priority: 0.8,
-      changeFreq: 'weekly' as const,
-    },
+
     {
       url: '/pricing',
       priority: 0.8,
@@ -89,34 +84,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   })
 
-  // Add blog posts for each locale
-  try {
-    for (const locale of locales) {
-      const posts = await getPostsByLocale(locale, 1, 100) // Get up to 100 posts per locale
-
-      posts.forEach(post => {
-        const isDefault = locale === 'en'
-        const postUrl = isDefault ? `/posts/${post.slug}` : `/${locale}/posts/${post.slug}`
-
-        sitemap.push({
-          url: `${baseUrl}${postUrl}`,
-          lastModified: post.updated_at || post.created_at || currentDate,
-          changeFrequency: 'monthly',
-          priority: 0.6,
-          alternates: {
-            languages: Object.fromEntries(
-              locales.map(loc => [
-                loc === 'en' ? 'x-default' : loc,
-                `${baseUrl}${loc === 'en' ? `/posts/${post.slug}` : `/${loc}/posts/${post.slug}`}`
-              ])
-            )
-          }
-        })
-      })
-    }
-  } catch (error) {
-    console.warn('Failed to fetch posts for sitemap:', error)
-  }
+  // Blog posts section removed as database is not used
 
   return sitemap
 }

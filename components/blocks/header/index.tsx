@@ -29,7 +29,7 @@ import Icon from "@/components/icon";
 import { Link } from "@/i18n/routing";
 import LocaleToggle from "@/components/locale/toggle";
 import { Menu } from "lucide-react";
-import SignToggle from "@/components/sign/toggle";
+
 import ThemeToggle from "@/components/theme/toggle";
 import { cn } from "@/lib/utils";
 
@@ -163,7 +163,7 @@ export default function Header({ header }: { header: HeaderType }) {
                 </Button>
               );
             })}
-            {header.show_sign && <SignToggle />}
+
           </div>
         </nav>
 
@@ -299,7 +299,7 @@ export default function Header({ header }: { header: HeaderType }) {
                       );
                     })}
 
-                    {header.show_sign && <SignToggle />}
+
                   </div>
 
                   <div className="mt-4 flex items-center gap-2">

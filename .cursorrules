@@ -29,8 +29,7 @@
 - types/: TypeScript type definitions
   - blocks/: Types for layout blocks
   - pages/: Types for pages
-- models/: Data models and data operations.
-- services/: Business logics.
+- services/: Business logics (no database operations).
 - public/: Static assets
 - lib/: Custom libraries and functions
 - .env.development: Development environment variables
