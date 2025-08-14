@@ -11,6 +11,8 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 
+export const runtime = 'edge';
+
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",

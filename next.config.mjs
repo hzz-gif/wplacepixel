@@ -31,12 +31,15 @@ const nextConfig = {
   async redirects() {
     return [];
   },
+  // Edge Runtime configuration for Cloudflare Pages
+  experimental: {},
 };
 
 // Make sure experimental mdx flag is enabled
 const configWithMDX = {
   ...nextConfig,
   experimental: {
+    ...nextConfig.experimental,
     mdxRs: true,
   },
 };

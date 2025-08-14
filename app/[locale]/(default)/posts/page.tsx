@@ -3,6 +3,8 @@ import { Blog as BlogType } from "@/types/blocks/blog";
 import { getPostsByLocale } from "@/models/post";
 import { getTranslations } from "next-intl/server";
 
+export const runtime = 'edge';
+
 export async function generateMetadata({
   params,
 }: {
