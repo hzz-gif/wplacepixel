@@ -1,0 +1,72 @@
+{
+  "blog": {
+    "title": "WPlace Pixel Blog",
+    "description": "Stay updated with the latest WPlace.live news, pixel art guides, tutorials, and community insights. Learn tips, tricks, and best practices for collaborative pixel art creation.",
+    "articles": [
+      {
+        "title": "Wplace Void Destroys Andorra: Why the Community is Divided on New Policies",
+        "description": "Learn about the wplace void controversy following the Andorra incident. Official moderator responses, community reactions, and current rules explained.",
+        "url": "/blog/wplace-void",
+        "date": "August 14, 2025",
+        "readTime": "5 min read",
+        "category": "Community",
+        "image": {
+          "src": "/imgs/features/wplace-canvas.jpg",
+          "alt": "Wplace Void Andorra Controversy"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "How to Import Pixel Arts or Images into Wplace live",
+        "description": "So you've got some awesome pixel art and want to get it into Wplace live. Here's the thing - it's not as straightforward as you might think, but it's totally doable.",
+        "url": "/blog/how-to-import-pixel-arts-or-images-into-wplace-live",
+        "date": "August 13, 2025",
+        "readTime": "7 min read",
+        "category": "Tutorial",
+        "image": {
+          "src": "/imgs/features/2.png",
+          "alt": "Import Pixel Art to Wplace"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "How to Search Individual Pixels or Cities in Wplace live",
+        "description": "Finding one exact spot on a big map is hard. Scrolling around is slow. A search bar fixes that. You type a city or a precise target. The map jumps there. Simple.",
+        "url": "/blog/how-to-search-cities-in-wplace-live",
+        "date": "August 13, 2025",
+        "readTime": "6 min read",
+        "category": "Guide",
+        "image": {
+          "src": "/imgs/features/3.png",
+          "alt": "Search Cities in Wplace"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "Wplace live Is Down: What's Really Happening",
+        "description": "Wplace live is down: What's really happening, why it matters, and how to cope. Understanding the rapid growth from 100k to 1M users and server challenges.",
+        "url": "/blog/wplace-live-down",
+        "date": "August 13, 2025",
+        "readTime": "4 min read",
+        "category": "News",
+        "image": {
+          "src": "/imgs/features/4.png",
+          "alt": "Wplace Live Server Status"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      }
+    ]
+  }
+}

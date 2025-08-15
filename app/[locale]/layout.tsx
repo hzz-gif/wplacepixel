@@ -11,8 +11,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 
-export const runtime = 'edge';
-
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -45,12 +43,12 @@ export default async function RootLayout({
 }>) {
   const { locale } = await params;
   const messages = await getMessages();
-  const webUrl = process.env.NEXT_PUBLIC_WEB_URL || "";
+  const webUrl = process.env.NEXT_PUBLIC_WEB_URL || "https://wplacepixel.art";
   const googleAdsenseCode = process.env.NEXT_PUBLIC_GOOGLE_ADCODE || "";
 
   return (
     <html lang={locale} suppressHydrationWarning>
-      <head>
+      <head suppressHydrationWarning>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {googleAdsenseCode && (
           <meta name="google-adsense-account" content={googleAdsenseCode} />
@@ -59,8 +57,21 @@ export default async function RootLayout({
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" />
 
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5148478102061529"
+          crossOrigin="anonymous"
+          suppressHydrationWarning
+        />
+
         {/* Plausible Analytics */}
-        <script defer data-domain="wplacepixel.art" src="https://plausible.io/js/script.js"></script>
+        <script
+          defer
+          data-domain="wplacepixel.art"
+          src="https://plausible.io/js/script.js"
+          suppressHydrationWarning
+        />
 
         {locales &&
           locales.map((loc) => (

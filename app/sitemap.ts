@@ -29,6 +29,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.6,
       changeFreq: 'monthly' as const,
     },
+    {
+      url: '/blog',
+      priority: 0.8,
+      changeFreq: 'weekly' as const,
+    },
   ]
 
   // Legal pages (no internationalization)

@@ -1,6 +1,5 @@
 "use client";
 
-import Analytics from "@/components/analytics";
 import { CacheKey } from "@/services/constant";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
@@ -54,7 +53,7 @@ export function ThemeProvider({ children, ...props }: ThemeProviderProps) {
 
       <Toaster position="top-center" richColors />
 
-      <Analytics />
+      {/* Analytics scripts are loaded directly in layout head */}
     </NextThemesProvider>
   );
 }

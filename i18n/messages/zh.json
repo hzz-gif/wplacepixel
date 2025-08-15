@@ -54,9 +54,9 @@
     }
   },
   "blog": {
-    "title": "博客",
-    "description": "关于 ShipAny 的新闻、资源和更新",
-    "read_more_text": "阅读更多"
+    "title": "WPlace 像素博客",
+    "description": "关于 WPlace.live 工具和指南的新闻、资源和更新",
+    "read_more_text": "阅读更多关于 WPlace"
   },
   "my_invites": {
     "title": "我的邀请",

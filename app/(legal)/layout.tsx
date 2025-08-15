@@ -2,6 +2,7 @@ import "@/app/globals.css";
 
 import { MdOutlineHome } from "react-icons/md";
 import React from "react";
+import Script from "next/script";
 
 // Metadata is handled by individual page layouts
 
@@ -12,6 +13,23 @@ export default function LegalLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        {/* Google AdSense */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5148478102061529"
+          crossOrigin="anonymous"
+        />
+
+        {/* Plausible Analytics */}
+        <script
+          defer
+          data-domain="wplacepixel.art"
+          src="https://plausible.io/js/script.js"
+        />
+      </head>
       <body className="min-h-screen bg-background font-sans antialiased">
         <div className="min-h-screen bg-background">
           <header className="border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">

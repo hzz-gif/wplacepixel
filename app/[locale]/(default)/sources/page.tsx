@@ -1,8 +1,6 @@
 import Sources from "@/components/blocks/sources";
 import { getSourcesPage } from "@/services/page";
 
-export const runtime = 'edge';
-
 export async function generateMetadata({
   params,
 }: {

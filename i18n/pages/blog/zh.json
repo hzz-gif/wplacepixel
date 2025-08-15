@@ -1,0 +1,72 @@
+{
+  "blog": {
+    "title": "WPlace 像素博客",
+    "description": "获取最新的 WPlace.live 新闻、像素艺术指南、教程和社区见解。学习协作像素艺术创作的技巧、窍门和最佳实践。",
+    "articles": [
+      {
+        "title": "Wplace 虚空摧毁安道尔：社区对新政策分歧的原因",
+        "description": "了解安道尔事件后的 wplace 虚空争议。官方版主回应、社区反应和当前规则解释。",
+        "url": "/blog/wplace-void",
+        "date": "2025年8月14日",
+        "readTime": "5分钟阅读",
+        "category": "社区",
+        "image": {
+          "src": "/imgs/features/wplace-canvas.jpg",
+          "alt": "Wplace 虚空安道尔争议"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "如何将像素艺术或图像导入 Wplace live",
+        "description": "你有一些很棒的像素艺术，想要将其导入 Wplace live。事实是 - 这并不像你想象的那么简单，但完全可以做到。",
+        "url": "/blog/how-to-import-pixel-arts-or-images-into-wplace-live",
+        "date": "2025年8月13日",
+        "readTime": "7分钟阅读",
+        "category": "教程",
+        "image": {
+          "src": "/imgs/features/2.png",
+          "alt": "将像素艺术导入 Wplace"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "如何在 Wplace live 中搜索单个像素或城市",
+        "description": "在大地图上找到一个确切的位置很困难。滚动很慢。搜索栏解决了这个问题。你输入城市或精确目标。地图跳转到那里。简单。",
+        "url": "/blog/how-to-search-cities-in-wplace-live",
+        "date": "2025年8月13日",
+        "readTime": "6分钟阅读",
+        "category": "指南",
+        "image": {
+          "src": "/imgs/features/3.png",
+          "alt": "在 Wplace 中搜索城市"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      },
+      {
+        "title": "Wplace live 宕机：真正发生了什么",
+        "description": "Wplace live 宕机：真正发生了什么，为什么重要，以及如何应对。了解从10万到100万用户的快速增长和服务器挑战。",
+        "url": "/blog/wplace-live-down",
+        "date": "2025年8月13日",
+        "readTime": "4分钟阅读",
+        "category": "新闻",
+        "image": {
+          "src": "/imgs/features/4.png",
+          "alt": "Wplace Live 服务器状态"
+        },
+        "author": {
+          "name": "WPlace Team",
+          "avatar": "https://x.com/fiafia85217/photo"
+        }
+      }
+    ]
+  }
+}

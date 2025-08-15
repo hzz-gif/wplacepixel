@@ -150,16 +150,25 @@ export default function Header({ header }: { header: HeaderType }) {
             {header.buttons?.map((item, i) => {
               return (
                 <Button key={i} variant={item.variant}>
-                  <Link
-                    href={item.url as any}
-                    target={item.target || ""}
-                    className="flex items-center gap-1 cursor-pointer text-base"
-                  >
-                    {item.title}
-                    {item.icon && (
-                      <Icon name={item.icon} className="size-4 shrink-0" />
-                    )}
-                  </Link>
+                  {item.url ? (
+                    <Link
+                      href={item.url as any}
+                      target={item.target || ""}
+                      className="flex items-center gap-1 cursor-pointer text-base"
+                    >
+                      {item.title}
+                      {item.icon && (
+                        <Icon name={item.icon} className="size-4 shrink-0" />
+                      )}
+                    </Link>
+                  ) : (
+                    <span className="flex items-center gap-1 cursor-pointer text-base">
+                      {item.title}
+                      {item.icon && (
+                        <Icon name={item.icon} className="size-4 shrink-0" />
+                      )}
+                    </span>
+                  )}
                 </Button>
               );
             })}

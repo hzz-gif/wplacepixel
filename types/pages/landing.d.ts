@@ -2,6 +2,7 @@ import { Header } from "@/types/blocks/header";
 import { Hero } from "@/types/blocks/hero";
 import { Section } from "@/types/blocks/section";
 import { Footer } from "@/types/blocks/footer";
+import { BlogSection } from "@/types/blocks/blog";
 
 export interface LandingPage {
   header?: Header;
@@ -25,4 +26,8 @@ export interface ShowcasePage {
 
 export interface SourcesPage {
   sources?: Section;
+}
+
+export interface BlogPage {
+  blog?: BlogSection;
 }

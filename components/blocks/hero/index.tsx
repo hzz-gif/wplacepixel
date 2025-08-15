@@ -65,7 +65,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
             {hero.buttons && (
               <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
                 {hero.buttons.map((item, i) => {
-                  return (
+                  return item.url ? (
                     <Link
                       key={i}
                       href={item.url as any}
@@ -81,6 +81,16 @@ export default function Hero({ hero }: { hero: HeroType }) {
                         {item.title}
                       </Button>
                     </Link>
+                  ) : (
+                    <Button
+                      key={i}
+                      className="w-full"
+                      size="lg"
+                      variant={item.variant || "default"}
+                    >
+                      {item.icon && <Icon name={item.icon} className="" />}
+                      {item.title}
+                    </Button>
                   );
                 })}
               </div>
