@@ -1,0 +1,178 @@
+{
+  "wplace_bot": {
+    "name": "wplace-bot",
+    "title": "Wplace Bot - Automated Pixel Art Creation for WPlace.live",
+    "description": "Automate your WPlace.live pixel art creation with Wplace Bot - a powerful browser-based automation tool for efficient and precise collaborative pixel art projects.",
+    "hero": {
+      "title": "Wplace Bot",
+      "subtitle": "Automated Pixel Art Creation for WPlace.live",
+      "description": "Transform your collaborative pixel art workflow with intelligent automation. Wplace Bot provides advanced scripting capabilities, queue management, and precision placement for large-scale community art projects."
+    },
+    "resources": {
+      "title": "Wplace Bot Resources & Tools",
+      "description": "Discover open-source automation tools and community-developed solutions for WPlace.live",
+      "tools": [
+        {
+          "title": "WPlace AutoBOT by DarkModde",
+          "description": "A comprehensive open-source automation bot for WPlace.live featuring advanced pixel placement algorithms, template support, and intelligent queue management. This GitHub repository provides a complete solution for automated pixel art creation with detailed documentation and community support.",
+          "url": "https://github.com/DarkModde/WPlace-AutoBOT",
+          "features": [
+            "Open-source and free to use",
+            "Advanced template processing",
+            "Intelligent pixel placement algorithms",
+            "Community-driven development",
+            "Regular updates and improvements",
+            "Comprehensive documentation"
+          ],
+          "type": "github"
+        },
+        {
+          "title": "Wplace Bot Community Hub",
+          "description": "Explore a curated collection of WPlace bot projects, scripts, and automation tools developed by the community. This GitHub topic aggregates various bot implementations, userscripts, and automation solutions, providing a comprehensive resource for developers and users interested in WPlace.live automation.",
+          "url": "https://github.com/topics/wplace-bot",
+          "features": [
+            "Multiple bot implementations",
+            "Community-contributed scripts",
+            "Various programming languages",
+            "Different automation approaches",
+            "Active community discussions",
+            "Regular project updates"
+          ],
+          "type": "community"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "How Wplace Bot Works",
+      "description": "Understanding the automation process for safe and efficient pixel art creation",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Template Upload",
+          "description": "Upload your pixel art template or image that you want to recreate on WPlace.live",
+          "details": [
+            "Support for PNG, JPEG, and other image formats",
+            "Automatic color palette conversion",
+            "Template positioning and scaling",
+            "Preview and adjustment tools"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Configuration Setup",
+          "description": "Configure automation settings including timing, priorities, and safety parameters",
+          "details": [
+            "Placement speed and timing controls",
+            "Priority pixel identification",
+            "Safety and detection avoidance",
+            "Account and session management"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Automated Execution",
+          "description": "The bot automatically places pixels according to your template and configuration",
+          "details": [
+            "Intelligent queue management",
+            "Real-time progress tracking",
+            "Automatic error handling",
+            "Pause and resume capabilities"
+          ]
+        }
+      ]
+    },
+    "use_cases": {
+      "title": "Popular Use Cases",
+      "description": "Discover how communities and artists use Wplace Bot for their projects",
+      "cases": [
+        {
+          "title": "Large-Scale Community Art",
+          "description": "Coordinate massive community projects with hundreds of participants working on detailed artwork.",
+          "examples": [
+            "National flags and emblems",
+            "Complex artwork reproductions",
+            "Community logos and symbols",
+            "Collaborative murals"
+          ]
+        },
+        {
+          "title": "Detailed Pixel Art Recreation",
+          "description": "Recreate intricate pixel art designs with precision and efficiency that would be impossible manually.",
+          "examples": [
+            "Video game character sprites",
+            "Anime and cartoon characters",
+            "Famous artwork reproductions",
+            "Corporate logos and branding"
+          ]
+        },
+        {
+          "title": "Competitive Pixel Battles",
+          "description": "Gain strategic advantages in competitive pixel placement scenarios and territory control.",
+          "examples": [
+            "Territory expansion",
+            "Defensive pixel placement",
+            "Strategic positioning",
+            "Rapid response to attacks"
+          ]
+        }
+      ]
+    },
+
+    "safety": {
+      "title": "Safety & Best Practices",
+      "description": "Important guidelines for responsible automation usage",
+      "guidelines": [
+        {
+          "title": "Respect Community Rules",
+          "description": "Always follow WPlace.live's Terms of Service and community guidelines when using automation tools.",
+          "importance": "critical"
+        },
+        {
+          "title": "Use Reasonable Speeds",
+          "description": "Configure realistic placement speeds that don't overwhelm the server or appear obviously automated.",
+          "importance": "high"
+        },
+        {
+          "title": "Coordinate with Others",
+          "description": "Communicate with other community members to avoid conflicts and ensure collaborative success.",
+          "importance": "medium"
+        },
+        {
+          "title": "Monitor Your Bot",
+          "description": "Regularly check on your bot's operation to ensure it's working correctly and not causing issues.",
+          "importance": "high"
+        }
+      ]
+    },
+
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is using Wplace Bot allowed on WPlace.live?",
+          "answer": "The use of automation tools may violate WPlace.live's Terms of Service. Always check the current rules and use automation responsibly. Consider the impact on other users and the community."
+        },
+        {
+          "question": "How fast can Wplace Bot place pixels?",
+          "answer": "Placement speed depends on WPlace.live's cooldown timers and your configuration. The bot respects cooldowns and can be configured for natural-looking placement patterns."
+        },
+        {
+          "question": "Can I use Wplace Bot with multiple accounts?",
+          "answer": "While technically possible, using multiple accounts may violate platform rules. Always check the Terms of Service and consider the ethical implications of multi-account usage."
+        },
+        {
+          "question": "Is Wplace Bot free to use?",
+          "answer": "Pricing varies by provider. Some offer free tiers with limited features, while advanced features may require subscription. Check the specific bot provider for current pricing."
+        },
+        {
+          "question": "How do I avoid getting banned while using automation?",
+          "answer": "Use realistic timing, avoid obvious patterns, respect cooldowns, and don't place pixels too quickly. However, remember that automation always carries some risk of detection."
+        },
+        {
+          "question": "Can Wplace Bot work with any image?",
+          "answer": "Most bots support common image formats (PNG, JPEG) and automatically convert colors to match WPlace.live's palette. Complex images may need preprocessing for best results."
+        }
+      ]
+    }
+  }
+}

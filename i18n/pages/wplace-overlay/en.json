@@ -1,0 +1,202 @@
+{
+  "wplace_overlay": {
+    "name": "wplace-overlay",
+    "title": "Wplace Overlay Pro - Free TamperMonkey Script for WPlace.live",
+    "description": "Get the best Wplace Overlay tool! Free TamperMonkey script with template overlays, color matching & team collaboration. Install in 2 minutes!",
+    "hero": {
+      "title": "Wplace Overlay",
+      "subtitle": "Enhance your wplace overlay experience with powerful TamperMonkey extensions (Violentmonkey Extension) and tools for collaborative pixel art creation",
+      "badges": ["Pixel Art Overlay", "Collaborative", "Real-time"],
+      "cta": {
+        "primary": {
+          "title": "Install Wplace Overlay",
+          "url": "https://greasyfork.org/en/scripts/545041-wplace-overlay-pro",
+          "target": "_blank"
+        },
+        "secondary": {
+          "title": "View Documentation",
+          "url": "#features"
+        }
+      }
+    },
+    "tools_showcase": {
+      "title": "Essential Wplace Overlay Resources",
+      "description": "Choose from our collection of powerful wplace overlay tools and extensions",
+      "tools": [
+        {
+          "title": "Wplace Overlay Pro TamperMonkey Extension",
+          "description": "The most advanced wplace overlay solution with tile overlaying, resizing, and color-matching capabilities",
+          "badges": ["Featured", "TamperMonkey", "Canvas Overlay", "Color Matching", "GPLv3"],
+          "features": [
+            "Overlay tile placement and automatic resizing",
+            "Intelligent color-matching to wplace's palette",
+            "Advanced template management system",
+            "Compliance with site terms of service"
+          ],
+          "cta": {
+            "title": "Install Extension",
+            "url": "https://greasyfork.org/scripts/wplace-overlay-pro"
+          }
+        },
+        {
+          "title": "Wplace-BlueMarble Template Overlay",
+          "description": "Versatile template overlay system designed specifically for wplace.live collaborative projects",
+          "badges": ["Open Source", "Template System", "GitHub"],
+          "features": [
+            "Comprehensive template management",
+            "User-friendly overlay controls",
+            "Enhanced productivity features",
+            "Seamless collaborative creation"
+          ],
+          "cta": {
+            "title": "View on GitHub",
+            "url": "https://github.com/wplace-bluemarble/template-overlay"
+          }
+        },
+        {
+          "title": "WplaceOverlay by clrfl",
+          "description": "Lightweight and efficient wplace overlay implementation with clean codebase",
+          "badges": ["Lightweight", "Clean Code", "Community"],
+          "features": [
+            "Performance-focused design",
+            "Simple and reliable functionality",
+            "Minimal resource usage",
+            "Community-driven development"
+          ],
+          "cta": {
+            "title": "View Repository",
+            "url": "https://github.com/clrfl/wplace-overlay"
+          }
+        }
+      ]
+    },
+    "getting_started": {
+      "title": "Getting Started with Wplace Overlay",
+      "description": "Begin your wplace overlay journey with these simple steps to install and use TamperMonkey extension tools",
+      "steps": [
+        {
+          "step": 1,
+          "title": "Install TamperMonkey",
+          "description": "Add the TamperMonkey extension to your browser for userscript management",
+          "details": [
+            "TamperMonkey is a popular userscript manager that allows you to run custom scripts on websites",
+            "It's available for Chrome, Firefox, Safari, and Edge browsers",
+            "The extension is free and safe to use"
+          ],
+          "links": [
+            {
+              "title": "TamperMonkey for Chrome",
+              "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+              "target": "_blank"
+            },
+            {
+              "title": "TamperMonkey for Firefox",
+              "url": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
+              "target": "_blank"
+            },
+            {
+              "title": "TamperMonkey for Edge",
+              "url": "https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "Choose Your Tool",
+          "description": "Select the wplace overlay script that best fits your creative needs",
+          "details": [
+            "We offer multiple overlay tools with different features and capabilities",
+            "Wplace Overlay Pro is our most advanced solution with comprehensive features",
+            "Choose based on your specific requirements and technical preferences"
+          ],
+          "options": [
+            {
+              "name": "Wplace Overlay Pro",
+              "description": "Most advanced solution with full features",
+              "recommended": true,
+              "url": "https://greasyfork.org/en/scripts/wplace-overlay-pro"
+            },
+            {
+              "name": "Wplace-BlueMarble",
+              "description": "Open source template overlay system",
+              "recommended": false,
+              "url": "https://github.com/wplace-bluemarble/template-overlay"
+            },
+            {
+              "name": "WplaceOverlay by clrfl",
+              "description": "Lightweight and efficient implementation",
+              "recommended": false,
+              "url": "https://github.com/clrfl/wplace-overlay"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "Install the Script",
+          "description": "Click the install button to add the wplace overlay script to TamperMonkey",
+          "details": [
+            "Navigate to your chosen script's page (Greasy Fork or GitHub)",
+            "Click the 'Install' or 'Raw' button to open the script in TamperMonkey",
+            "Review the script permissions and click 'Install' in the TamperMonkey dialog",
+            "The script will be automatically enabled for wplace.live"
+          ]
+        },
+        {
+          "step": 4,
+          "title": "Start Creating",
+          "description": "Visit WPlace.live and begin your collaborative pixel art journey",
+          "details": [
+            "Navigate to wplace.live in your browser",
+            "The overlay interface will automatically appear on the page",
+            "Upload your template image or import a JSON template",
+            "Position your template and start placing pixels collaboratively"
+          ],
+          "tips": [
+            "Use PNG images with transparent backgrounds for best results",
+            "Start with simple templates to familiarize yourself with the interface",
+            "Coordinate with your team using the template sharing features",
+            "Respect the site's terms of service and community guidelines"
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Is Wplace Overlay Pro free to use?",
+          "answer": "Yes, Wplace Overlay Pro is completely free and open-source under the GPLv3 license."
+        },
+        {
+          "question": "Does this violate WPlace.live's Terms of Service?",
+          "answer": "The script is designed to assist with pixel art creation while respecting WPlace.live's rules. Always ensure you comply with the site's Terms of Service and community guidelines."
+        },
+        {
+          "question": "Can I use this on mobile devices?",
+          "answer": "Currently, Wplace Overlay Pro is optimized for desktop browsers, particularly Windows + Chrome. Mobile support is not available at this time."
+        },
+        {
+          "question": "How do I share templates with my team?",
+          "answer": "Use the JSON export feature to create shareable template files. Team members can import these JSON files or use direct JSON links for coordination."
+        },
+        {
+          "question": "What image formats are supported?",
+          "answer": "The script supports PNG images via direct links and local file uploads. For best results, use PNG format with transparent backgrounds."
+        },
+        {
+          "question": "Can I resize my templates?",
+          "answer": "Yes, the script includes resize functionality with both simple scaling and dot-matching modes for optimal results."
+        },
+        {
+          "question": "How do I install TamperMonkey?",
+          "answer": "Visit the TamperMonkey website or your browser's extension store, download and install the extension. It's available for Chrome, Firefox, Safari, and Edge."
+        },
+        {
+          "question": "Which overlay tool should I choose?",
+          "answer": "For beginners, we recommend Wplace Overlay Pro as it offers the most comprehensive features. Advanced users might prefer the open-source alternatives for customization."
+        }
+      ]
+    }
+  }
+}

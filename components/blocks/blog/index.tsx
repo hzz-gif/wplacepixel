@@ -36,6 +36,9 @@ export default function Blog({ section }: BlogProps) {
                     alt={article.image?.alt || article.title || ""}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-110"
+                    priority={index < 2} // 优先加载前两张图片
+                    loading={index < 2 ? "eager" : "lazy"} // 懒加载非首屏图片
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   {article.category && (
                     <div className="absolute top-4 left-4">

@@ -1,0 +1,179 @@
+{
+  "wplace_bot": {
+    "name": "wplace-bot",
+    "title": "Wplace 机器人 - WPlace.live 自动化像素艺术创作工具",
+    "description": "使用 Wplace 机器人自动化您的 WPlace.live 像素艺术创作 - 一个强大的基于浏览器的自动化工具，用于高效精确的协作像素艺术项目。",
+    "hero": {
+      "title": "Wplace 机器人",
+      "subtitle": "WPlace.live 自动化像素艺术创作",
+      "description": "通过智能自动化转变您的协作像素艺术工作流程。Wplace 机器人提供高级脚本功能、队列管理和精确放置，适用于大规模社区艺术项目。"
+    },
+    "resources": {
+      "title": "Wplace 机器人资源与工具",
+      "description": "发现开源自动化工具和社区开发的 WPlace.live 解决方案",
+      "tools": [
+        {
+          "title": "DarkModde 的 WPlace AutoBOT",
+          "description": "一个全面的 WPlace.live 开源自动化机器人，具有高级像素放置算法、模板支持和智能队列管理。这个 GitHub 仓库提供了完整的自动化像素艺术创作解决方案，包含详细文档和社区支持。",
+          "url": "https://github.com/DarkModde/WPlace-AutoBOT",
+          "features": [
+            "开源且免费使用",
+            "高级模板处理",
+            "智能像素放置算法",
+            "社区驱动开发",
+            "定期更新和改进",
+            "全面的文档"
+          ],
+          "type": "github"
+        },
+        {
+          "title": "Wplace 机器人社区中心",
+          "description": "探索由社区开发的 WPlace 机器人项目、脚本和自动化工具的精选集合。这个 GitHub 主题汇集了各种机器人实现、用户脚本和自动化解决方案，为对 WPlace.live 自动化感兴趣的开发者和用户提供全面的资源。",
+          "url": "https://github.com/topics/wplace-bot",
+          "features": [
+            "多种机器人实现",
+            "社区贡献的脚本",
+            "各种编程语言",
+            "不同的自动化方法",
+            "活跃的社区讨论",
+            "定期项目更新"
+          ],
+          "type": "community"
+        }
+      ]
+    },
+
+    "how_it_works": {
+      "title": "Wplace 机器人工作原理",
+      "description": "了解安全高效像素艺术创作的自动化过程",
+      "steps": [
+        {
+          "step": 1,
+          "title": "模板上传",
+          "description": "上传您想在 WPlace.live 上重建的像素艺术模板或图像",
+          "details": [
+            "支持 PNG、JPEG 和其他图像格式",
+            "自动调色板转换",
+            "模板定位和缩放",
+            "预览和调整工具"
+          ]
+        },
+        {
+          "step": 2,
+          "title": "配置设置",
+          "description": "配置自动化设置，包括时机、优先级和安全参数",
+          "details": [
+            "放置速度和时机控制",
+            "优先像素识别",
+            "安全和检测避免",
+            "账户和会话管理"
+          ]
+        },
+        {
+          "step": 3,
+          "title": "自动执行",
+          "description": "机器人根据您的模板和配置自动放置像素",
+          "details": [
+            "智能队列管理",
+            "实时进度跟踪",
+            "自动错误处理",
+            "暂停和恢复功能"
+          ]
+        }
+      ]
+    },
+    "use_cases": {
+      "title": "热门使用场景",
+      "description": "了解社区和艺术家如何在项目中使用 Wplace 机器人",
+      "cases": [
+        {
+          "title": "大规模社区艺术",
+          "description": "协调有数百名参与者的大型社区项目，共同创作详细的艺术作品。",
+          "examples": [
+            "国旗和徽章",
+            "复杂艺术作品复制",
+            "社区标志和符号",
+            "协作壁画"
+          ]
+        },
+        {
+          "title": "精细像素艺术重建",
+          "description": "以手动无法实现的精度和效率重建复杂的像素艺术设计。",
+          "examples": [
+            "视频游戏角色精灵",
+            "动漫和卡通角色",
+            "著名艺术作品复制",
+            "企业标志和品牌"
+          ]
+        },
+        {
+          "title": "竞争性像素战斗",
+          "description": "在竞争性像素放置场景和领土控制中获得战略优势。",
+          "examples": [
+            "领土扩张",
+            "防御性像素放置",
+            "战略定位",
+            "快速响应攻击"
+          ]
+        }
+      ]
+    },
+
+    "safety": {
+      "title": "安全与最佳实践",
+      "description": "负责任使用自动化的重要指导原则",
+      "guidelines": [
+        {
+          "title": "尊重社区规则",
+          "description": "使用自动化工具时始终遵循 WPlace.live 的服务条款和社区指导原则。",
+          "importance": "critical"
+        },
+        {
+          "title": "使用合理速度",
+          "description": "配置不会压垮服务器或明显显示自动化的现实放置速度。",
+          "importance": "high"
+        },
+        {
+          "title": "与他人协调",
+          "description": "与其他社区成员沟通，避免冲突并确保协作成功。",
+          "importance": "medium"
+        },
+        {
+          "title": "监控您的机器人",
+          "description": "定期检查机器人的运行情况，确保其正常工作且不会造成问题。",
+          "importance": "high"
+        }
+      ]
+    },
+
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "在 WPlace.live 上使用 Wplace 机器人是否被允许？",
+          "answer": "使用自动化工具可能违反 WPlace.live 的服务条款。请始终检查当前规则并负责任地使用自动化。考虑对其他用户和社区的影响。"
+        },
+        {
+          "question": "Wplace 机器人能多快放置像素？",
+          "answer": "放置速度取决于 WPlace.live 的冷却计时器和您的配置。机器人尊重冷却时间，可以配置为自然外观的放置模式。"
+        },
+        {
+          "question": "我可以在多个账户上使用 Wplace 机器人吗？",
+          "answer": "虽然技术上可行，但使用多个账户可能违反平台规则。请始终检查服务条款并考虑多账户使用的道德影响。"
+        },
+        {
+          "question": "Wplace 机器人是免费使用的吗？",
+          "answer": "定价因提供商而异。一些提供有限功能的免费层级，而高级功能可能需要订阅。请查看特定机器人提供商的当前定价。"
+        },
+        {
+          "question": "使用自动化时如何避免被封禁？",
+          "answer": "使用现实的时机，避免明显的模式，尊重冷却时间，不要放置像素太快。但是，请记住自动化总是存在被检测的风险。"
+        },
+        {
+          "question": "Wplace 机器人可以处理任何图像吗？",
+          "answer": "大多数机器人支持常见的图像格式（PNG、JPEG）并自动转换颜色以匹配 WPlace.live 的调色板。复杂图像可能需要预处理以获得最佳效果。"
+        }
+      ]
+    }
+  }
+}

@@ -23,9 +23,22 @@
           "icon": "RiImageEditLine"
         },
         {
-          "title": "作品展示",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "工具",
+          "icon": "RiToolsLine",
+          "children": [
+            {
+              "title": "Wplace 覆盖层",
+              "url": "/wplace-overlay"
+            },
+            {
+              "title": "Wplace 机器人",
+              "url": "/wplace-bot"
+            },
+            {
+              "title": "宕机检测",
+              "url": "/is-wplace-down"
+            }
+          ]
         },
         {
           "title": "Blue Marble",
@@ -395,8 +408,13 @@
               "target": "_self"
             },
             {
-              "title": "作品展示",
-              "url": "/showcase",
+              "title": "Wplace 覆盖层",
+              "url": "/wplace-overlay",
+              "target": "_self"
+            },
+            {
+              "title": "Wplace 机器人",
+              "url": "/wplace-bot",
               "target": "_self"
             },
             {
@@ -440,8 +458,8 @@
               "target": "_self"
             },
             {
-              "title": "艺术社区",
-              "url": "/showcase",
+              "title": "Wplace 覆盖层",
+              "url": "/wplace-overlay",
               "target": "_self"
             }
           ]

@@ -23,9 +23,22 @@
           "icon": "RiImageEditLine"
         },
         {
-          "title": "Gallery",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "Tools",
+          "icon": "RiToolsLine",
+          "children": [
+            {
+              "title": "Wplace Overlay",
+              "url": "/wplace-overlay"
+            },
+            {
+              "title": "Wplace Bot",
+              "url": "/wplace-bot"
+            },
+            {
+              "title": "Down Detect",
+              "url": "/is-wplace-down"
+            }
+          ]
         },
         {
           "title": "Blue Marble",
@@ -395,8 +408,13 @@
               "target": "_self"
             },
             {
-              "title": "Gallery",
-              "url": "/showcase",
+              "title": "Wplace Overlay",
+              "url": "/wplace-overlay",
+              "target": "_self"
+            },
+            {
+              "title": "Wplace Bot",
+              "url": "/wplace-bot",
               "target": "_self"
             },
             {

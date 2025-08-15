@@ -31,3 +31,23 @@ export interface SourcesPage {
 export interface BlogPage {
   blog?: BlogSection;
 }
+
+export interface WplaceOverlaySection extends Section {
+  hero?: any;
+  tools_showcase?: any;
+  benefits?: any;
+  getting_started?: any;
+  faq?: any;
+}
+
+export interface WplaceOverlayPage {
+  wplace_overlay?: WplaceOverlaySection;
+}
+
+export interface WplaceBotPage {
+  wplace_bot?: Section;
+}
+
+export interface IsWplaceDownPage {
+  is_wplace_down?: Section;
+}

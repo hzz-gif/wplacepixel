@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import {
   Accordion,
   AccordionContent,
@@ -17,6 +18,13 @@ import {
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
 import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
   Sheet,
   SheetContent,
   SheetHeader,
@@ -25,7 +33,7 @@ import {
 } from "@/components/ui/sheet";
 
 import { Header as HeaderType } from "@/types/blocks/header";
-import Icon from "@/components/icon";
+import { Icon } from "@/components/ui/icon";
 import { Link } from "@/i18n/routing";
 import LocaleToggle from "@/components/locale/toggle";
 import { Menu } from "lucide-react";
@@ -34,13 +42,26 @@ import ThemeToggle from "@/components/theme/toggle";
 import { cn } from "@/lib/utils";
 
 export default function Header({ header }: { header: HeaderType }) {
+  const router = useRouter();
+
   if (header.disabled) {
     return null;
   }
 
+  const handleToolsNavigation = (url: string) => {
+    // 使用 router.push 进行快速导航
+    router.push(url);
+  };
+
   return (
-    <section className="py-3">
-      <div className="container">
+    <>
+      {/* Preload tools pages for faster navigation */}
+      <link rel="prefetch" href="/wplace-overlay" />
+      <link rel="prefetch" href="/wplace-bot" />
+      <link rel="prefetch" href="/is-wplace-down" />
+
+      <section className="py-3">
+        <div className="container">
         <nav className="hidden justify-between lg:flex">
           <div className="flex items-center gap-6">
             <Link
@@ -66,52 +87,24 @@ export default function Header({ header }: { header: HeaderType }) {
                   {header.nav?.items?.map((item, i) => {
                     if (item.children && item.children.length > 0) {
                       return (
-                        <NavigationMenuItem
-                          key={i}
-                          className="text-muted-foreground text-base"
-                        >
-                          <NavigationMenuTrigger>
-                            {item.icon && (
-                              <Icon
-                                name={item.icon}
-                                className="size-4 shrink-0 mr-2"
-                              />
-                            )}
-                            <span>{item.title}</span>
-                          </NavigationMenuTrigger>
-                          <NavigationMenuContent>
-                            <ul className="w-80 p-3">
-                              <NavigationMenuLink>
-                                {item.children.map((iitem, ii) => (
-                                  <li key={ii}>
-                                    <Link
-                                      className={cn(
-                                        "flex select-none gap-4 rounded-md p-3 leading-none no-underline outline-hidden transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
-                                      )}
-                                      href={iitem.url as any}
-                                      target={iitem.target}
-                                    >
-                                      {iitem.icon && (
-                                        <Icon
-                                          name={iitem.icon}
-                                          className="size-5 shrink-0"
-                                        />
-                                      )}
-                                      <div>
-                                        <div className="text-sm font-semibold">
-                                          {iitem.title}
-                                        </div>
-                                        <p className="text-sm leading-snug text-muted-foreground">
-                                          {iitem.description}
-                                        </p>
-                                      </div>
-                                    </Link>
-                                  </li>
-                                ))}
-                              </NavigationMenuLink>
-                            </ul>
-                          </NavigationMenuContent>
-                        </NavigationMenuItem>
+                        <div key={i} className="flex items-center">
+                          <Select onValueChange={handleToolsNavigation}>
+                            <SelectTrigger className="flex items-center gap-2 border-none text-muted-foreground outline-hidden hover:bg-transparent focus:ring-0 focus:ring-offset-0 text-base bg-transparent">
+                              <span>{item.title}</span>
+                            </SelectTrigger>
+                            <SelectContent className="z-50 bg-background">
+                              {item.children.map((iitem, ii) => (
+                                <SelectItem
+                                  key={ii}
+                                  className="cursor-pointer px-4"
+                                  value={iitem.url as string}
+                                >
+                                  {iitem.title}
+                                </SelectItem>
+                              ))}
+                            </SelectContent>
+                          </Select>
+                        </div>
                       );
                     }
 
@@ -131,6 +124,8 @@ export default function Header({ header }: { header: HeaderType }) {
                           {item.icon && (
                             <Icon
                               name={item.icon}
+                              color="currentColor"
+                              size={16}
                               className="size-4 shrink-0 mr-0"
                             />
                           )}
@@ -157,16 +152,10 @@ export default function Header({ header }: { header: HeaderType }) {
                       className="flex items-center gap-1 cursor-pointer text-base"
                     >
                       {item.title}
-                      {item.icon && (
-                        <Icon name={item.icon} className="size-4 shrink-0" />
-                      )}
                     </Link>
                   ) : (
                     <span className="flex items-center gap-1 cursor-pointer text-base">
                       {item.title}
-                      {item.icon && (
-                        <Icon name={item.icon} className="size-4 shrink-0" />
-                      )}
                     </span>
                   )}
                 </Button>
@@ -249,6 +238,8 @@ export default function Header({ header }: { header: HeaderType }) {
                                   {iitem.icon && (
                                     <Icon
                                       name={iitem.icon}
+                                      color="currentColor"
+                                      size={16}
                                       className="size-4 shrink-0"
                                     />
                                   )}
@@ -276,6 +267,8 @@ export default function Header({ header }: { header: HeaderType }) {
                           {item.icon && (
                             <Icon
                               name={item.icon}
+                              color="currentColor"
+                              size={16}
                               className="size-4 shrink-0"
                             />
                           )}
@@ -297,12 +290,6 @@ export default function Header({ header }: { header: HeaderType }) {
                             className="flex items-center gap-1"
                           >
                             {item.title}
-                            {item.icon && (
-                              <Icon
-                                name={item.icon}
-                                className="size-4 shrink-0"
-                              />
-                            )}
                           </Link>
                         </Button>
                       );
@@ -322,7 +309,8 @@ export default function Header({ header }: { header: HeaderType }) {
             </Sheet>
           </div>
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   );
 }

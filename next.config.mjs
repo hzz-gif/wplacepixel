@@ -26,7 +26,16 @@ const nextConfig = {
         hostname: "*",
       },
     ],
+    // 图片优化配置
+    formats: ['image/webp', 'image/avif'],
+    minimumCacheTTL: 60,
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
   },
+  // 性能优化
+  compress: true,
+  poweredByHeader: false,
+  generateEtags: false,
   async redirects() {
     return [];
   },

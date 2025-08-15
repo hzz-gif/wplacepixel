@@ -26,9 +26,19 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFreq: 'monthly' as const,
     },
     {
-      url: '/showcase',
-      priority: 0.7,
-      changeFreq: 'weekly' as const,
+      url: '/wplace-overlay',
+      priority: 0.8,
+      changeFreq: 'monthly' as const,
+    },
+    {
+      url: '/wplace-bot',
+      priority: 0.8,
+      changeFreq: 'monthly' as const,
+    },
+    {
+      url: '/is-wplace-down',
+      priority: 0.9,
+      changeFreq: 'daily' as const,
     },
     {
       url: '/blue-marble',

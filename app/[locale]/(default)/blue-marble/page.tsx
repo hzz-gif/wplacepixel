@@ -24,15 +24,13 @@ export default function BlueMarblePage() {
             The ultimate userscript for enhanced pixel art creation on WPlace.live. Transform your collaborative pixel art experience with advanced template overlay, precise coordinate systems, and professional-grade tools.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a 
-              href="https://github.com/SwingTheVine/Wplace-BlueMarble/releases/latest"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a
+              href="#download"
               className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors"
             >
               📥 Download Blue Marble
             </a>
-            <a 
+            <a
               href="https://wplace.live"
               target="_blank"
               rel="noopener noreferrer"
@@ -56,6 +54,7 @@ export default function BlueMarblePage() {
             The Blue Marble userscript has been developed with the collaborative nature of WPlace.live in mind. Blue Marble enables artists to work together more effectively by providing shared coordinate systems and template alignment features. With Blue Marble, teams can coordinate their pixel art projects with precision, ensuring that every pixel is placed exactly where it should be. Blue Marble has become an indispensable tool for the WPlace.live community, transforming how collaborative pixel art is created.
           </p>
         </div>
+
 
         {/* Key Features */}
         <div className="mb-12">
@@ -123,7 +122,7 @@ export default function BlueMarblePage() {
         </div>
 
         {/* Installation Guide */}
-        <div className="mb-12">
+        <div id="installation" className="mb-12">
           <h2 className="text-3xl font-bold mb-8 text-center">📥 Installation Guide</h2>
           
           <div className="bg-card/30 backdrop-blur-sm rounded-xl p-6 border border-border/50 mb-6">
@@ -194,6 +193,70 @@ export default function BlueMarblePage() {
             <div className="bg-card/30 backdrop-blur-sm rounded-xl p-6 border border-border/50">
               <h3 className="text-xl font-semibold mb-3">Blue Marble Performance</h3>
               <p className="text-muted-foreground">Blue Marble is optimized for performance across all supported browsers. Blue Marble works seamlessly on both desktop and mobile devices, ensuring a consistent experience regardless of your platform.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Download Section */}
+        <div id="download" className="bg-gradient-to-br from-primary/5 via-primary/10 to-primary/5 rounded-2xl p-8 md:p-12 border border-primary/20 shadow-lg mb-12">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
+              📥 Download Blue Marble for WPlace.live
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Get the latest version of Blue Marble userscript and transform your WPlace.live pixel art experience.
+              Free, open-source, and constantly updated with new features based on community feedback.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
+            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border/50">
+              <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                🚀 Latest Release
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                Download the most recent stable version with all the latest features, bug fixes, and performance improvements.
+              </p>
+              <a
+                href="https://github.com/SwingTheVine/Wplace-BlueMarble/releases/latest"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-lg font-medium hover:bg-primary/90 transition-colors w-full"
+              >
+                📥 Download Latest Version
+              </a>
+            </div>
+
+            <div className="bg-card/50 backdrop-blur-sm rounded-xl p-6 border border-border/50">
+              <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">
+                📚 Installation Guide
+              </h3>
+              <p className="text-muted-foreground mb-4">
+                New to userscripts? Follow our step-by-step installation guide to get Blue Marble running in minutes.
+              </p>
+              <a
+                href="#installation"
+                className="inline-flex items-center justify-center gap-2 border border-border bg-background px-6 py-3 rounded-lg font-medium hover:bg-muted/50 transition-colors w-full"
+              >
+                📖 View Installation Guide
+              </a>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <div className="inline-flex items-center gap-4 text-sm text-muted-foreground">
+              <span className="flex items-center gap-1">
+                ✅ Free & Open Source
+              </span>
+              <span className="flex items-center gap-1">
+                🔒 Safe & Secure
+              </span>
+              <span className="flex items-center gap-1">
+                🌐 Cross-Platform
+              </span>
+              <span className="flex items-center gap-1">
+                🔄 Regular Updates
+              </span>
             </div>
           </div>
         </div>

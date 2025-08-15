@@ -1,0 +1,261 @@
+{
+  "wplace_overlay": {
+    "name": "wplace-overlay",
+    "title": "Wplace 覆盖层 - WPlace.live 高级模板覆盖工具",
+    "description": "使用 Wplace Overlay Pro 增强您的 WPlace.live 像素艺术体验 - 终极用户脚本，提供模板覆盖、颜色匹配和协作像素艺术创作功能。",
+    "hero": {
+      "title": "Wplace Overlay Pro",
+      "subtitle": "WPlace.live 终极模板覆盖工具",
+      "description": "通过高级模板覆盖功能、颜色匹配和精确放置工具，改变您的协作像素艺术体验。非常适合协调的社区项目和详细的像素艺术创作。",
+      "cta": {
+        "primary": {
+          "title": "安装 Wplace Overlay",
+          "url": "https://greasyfork.org/en/scripts/545041-wplace-overlay-pro",
+          "target": "_blank"
+        },
+        "secondary": {
+          "title": "查看文档",
+          "url": "#features"
+        }
+      }
+    },
+    "features": {
+      "title": "像素艺术协作的强大功能",
+      "description": "Wplace Overlay Pro 为您在 WPlace.live 上进行精确高效的像素艺术创作提供所需的一切",
+      "items": [
+        {
+          "title": "模板覆盖系统",
+          "description": "上传 PNG 图像或导入 JSON 模板以覆盖在 WPlace.live 画布上。非常适合协调的社区项目和详细的艺术作品。",
+          "icon": "RiImageLine",
+          "benefits": [
+            "直接 PNG 链接支持",
+            "本地文件上传功能",
+            "JSON 模板导入/导出",
+            "多重覆盖管理"
+          ]
+        },
+        {
+          "title": "高级颜色匹配",
+          "description": "使用加权距离算法自动将模板颜色匹配到 WPlace 调色板，以获得最佳颜色准确性。",
+          "icon": "RiPaletteLine",
+          "benefits": [
+            "CompuPhase 近似算法",
+            "最近颜色匹配",
+            "调色板优化",
+            "颜色准确性增强"
+          ]
+        },
+        {
+          "title": "精确放置工具",
+          "description": "点击放置功能，带有偏移调整和微调控制，实现完美的模板定位。",
+          "icon": "RiCrosshairLine",
+          "benefits": [
+            "自动捕获放置",
+            "偏移调整控制",
+            "微调定位",
+            "网格完美对齐"
+          ]
+        },
+        {
+          "title": "协作功能",
+          "description": "通过 JSON 导出/导入与团队共享模板，协调大规模社区艺术项目。",
+          "icon": "RiTeamLine",
+          "benefits": [
+            "通过 JSON 共享模板",
+            "社区协调",
+            "多用户协作",
+            "项目管理工具"
+          ]
+        },
+        {
+          "title": "可定制界面",
+          "description": "可拖拽 UI、可折叠面板、明暗主题和透明度控制，打造完美的工作环境。",
+          "icon": "RiSettings3Line",
+          "benefits": [
+            "浮动可拖拽窗口",
+            "明暗主题",
+            "透明度调整",
+            "可折叠 UI 元素"
+          ]
+        },
+        {
+          "title": "高级模式",
+          "description": "符号/色盲模式、像素缩小模式和调整大小功能，适用于特殊用例。",
+          "icon": "RiEyeLine",
+          "benefits": [
+            "色盲无障碍",
+            "基于符号的覆盖",
+            "像素缩小",
+            "调整大小功能"
+          ]
+        }
+      ]
+    },
+    "installation": {
+      "title": "简易安装指南",
+      "description": "只需几个简单步骤即可开始使用 Wplace Overlay Pro",
+      "steps": [
+        {
+          "step": 1,
+          "title": "安装用户脚本管理器",
+          "description": "安装 Tampermonkey（推荐）、Greasemonkey 或 Violentmonkey 浏览器扩展",
+          "links": [
+            {
+              "title": "Chrome 版 Tampermonkey",
+              "url": "https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo",
+              "target": "_blank"
+            },
+            {
+              "title": "Firefox 版 Tampermonkey",
+              "url": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "title": "安装 Wplace Overlay Pro",
+          "description": "点击 Greasy Fork 上的安装按钮，将脚本添加到您的用户脚本管理器",
+          "links": [
+            {
+              "title": "从 Greasy Fork 安装",
+              "url": "https://greasyfork.org/en/scripts/545041-wplace-overlay-pro",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "title": "访问 WPlace.live",
+          "description": "导航到 WPlace.live，覆盖界面将自动出现",
+          "links": [
+            {
+              "title": "前往 WPlace.live",
+              "url": "https://wplace.live",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "usage": {
+      "title": "如何使用 Wplace Overlay",
+      "description": "通过这些基本技巧掌握模板覆盖的艺术",
+      "guides": [
+        {
+          "title": "基本模板覆盖",
+          "steps": [
+            "在安装脚本的情况下打开 WPlace.live",
+            "在覆盖界面中粘贴直接 PNG 链接",
+            "为您的覆盖命名以便识别",
+            "在右上角切换\"放置覆盖\"选项",
+            "点击画布上您想要左上角的位置",
+            "等待几秒钟让覆盖出现",
+            "再次切换以停止移动覆盖"
+          ]
+        },
+        {
+          "title": "颜色匹配",
+          "steps": [
+            "上传或链接您的模板图像",
+            "启用颜色匹配工具",
+            "选择最近颜色匹配模式",
+            "脚本将自动优化颜色",
+            "查看颜色匹配预览",
+            "将优化的模板应用到画布"
+          ]
+        },
+        {
+          "title": "模板共享",
+          "steps": [
+            "创建您的模板覆盖",
+            "使用导出功能生成 JSON",
+            "与团队成员共享 JSON 文件",
+            "团队成员可以通过 JSON 链接导入",
+            "协调放置和时间",
+            "执行协作像素艺术项目"
+          ]
+        }
+      ]
+    },
+    "compatibility": {
+      "title": "系统要求",
+      "description": "Wplace Overlay Pro 针对支持的平台进行了最佳性能优化",
+      "requirements": {
+        "supported": {
+          "title": "完全支持",
+          "items": [
+            "Windows + Chrome（推荐）",
+            "Tampermonkey 扩展",
+            "WPlace.live 网站"
+          ]
+        },
+        "limited": {
+          "title": "有限支持",
+          "items": [
+            "其他操作系统",
+            "其他浏览器",
+            "其他用户脚本管理器"
+          ]
+        }
+      },
+      "note": "开发者目前仅为 Windows + Chrome 环境提供完全支持。其他配置可能有效，但不受官方支持。"
+    },
+    "community": {
+      "title": "加入社区",
+      "description": "与其他像素艺术家联系，了解最新功能",
+      "links": [
+        {
+          "title": "WPlace.live 社区",
+          "description": "加入主要的协作像素艺术平台",
+          "url": "https://wplace.live",
+          "target": "_blank",
+          "icon": "RiGlobalLine"
+        },
+        {
+          "title": "Greasy Fork 脚本页面",
+          "description": "评分、评论并获取 Wplace Overlay Pro 的更新",
+          "url": "https://greasyfork.org/en/scripts/545041-wplace-overlay-pro",
+          "target": "_blank",
+          "icon": "RiCodeLine"
+        },
+        {
+          "title": "像素艺术转换器",
+          "description": "在覆盖之前将图像转换为像素艺术",
+          "url": "/",
+          "target": "_self",
+          "icon": "RiImageEditLine"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "items": [
+        {
+          "question": "Wplace Overlay Pro 是免费使用的吗？",
+          "answer": "是的，Wplace Overlay Pro 完全免费，并在 GPLv3 许可证下开源。"
+        },
+        {
+          "question": "这是否违反了 WPlace.live 的服务条款？",
+          "answer": "该脚本旨在协助像素艺术创作，同时尊重 WPlace.live 的规则。请始终确保您遵守网站的服务条款和社区准则。"
+        },
+        {
+          "question": "我可以在移动设备上使用吗？",
+          "answer": "目前，Wplace Overlay Pro 针对桌面浏览器进行了优化，特别是 Windows + Chrome。目前不支持移动设备。"
+        },
+        {
+          "question": "如何与团队共享模板？",
+          "answer": "使用 JSON 导出功能创建可共享的模板文件。团队成员可以导入这些 JSON 文件或使用直接 JSON 链接进行协调。"
+        },
+        {
+          "question": "支持哪些图像格式？",
+          "answer": "脚本支持通过直接链接和本地文件上传的 PNG 图像。为获得最佳效果，请使用带透明背景的 PNG 格式。"
+        },
+        {
+          "question": "我可以调整模板大小吗？",
+          "answer": "是的，脚本包含调整大小功能，具有简单缩放和点匹配模式，以获得最佳效果。"
+        }
+      ]
+    }
+  }
+}
