@@ -42,12 +42,21 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return [
-    { slug: "wplace-void" },
-    { slug: "how-to-import-pixel-arts-or-images-into-wplace-live" },
-    { slug: "how-to-search-cities-in-wplace-live" },
-    { slug: "wplace-live-down" },
+  const slugs = [
+    "wplace-void",
+    "how-to-import-pixel-arts-or-images-into-wplace-live",
+    "how-to-search-cities-in-wplace-live",
+    "wplace-live-down"
   ];
+
+  const locales = ["en", "zh"];
+
+  return locales.flatMap(locale =>
+    slugs.map(slug => ({
+      locale,
+      slug
+    }))
+  );
 }
 
 export default async function BlogPostPage({
