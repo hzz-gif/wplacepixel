@@ -3,12 +3,15 @@ import { notFound } from "next/navigation";
 import BlogPost from "@/components/blocks/blog-post";
 import { getBlogPost } from "@/services/blog";
 
+export const runtime = 'edge';
+
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale, slug } = await params;
+  const { locale } = await params;
+  const slug = "wplace-void";
   const post = await getBlogPost(slug, locale);
 
   if (!post) {
@@ -41,30 +44,13 @@ export async function generateMetadata({
   };
 }
 
-export async function generateStaticParams() {
-  const slugs = [
-    "wplace-void",
-    "how-to-import-pixel-arts-or-images-into-wplace-live",
-    "how-to-search-cities-in-wplace-live",
-    "wplace-live-down"
-  ];
-
-  const locales = ["en", "zh"];
-
-  return locales.flatMap(locale =>
-    slugs.map(slug => ({
-      locale,
-      slug
-    }))
-  );
-}
-
 export default async function BlogPostPage({
   params,
 }: {
-  params: Promise<{ locale: string; slug: string }>;
+  params: Promise<{ locale: string }>;
 }) {
-  const { locale, slug } = await params;
+  const { locale } = await params;
+  const slug = "wplace-void";
   const post = await getBlogPost(slug, locale);
 
   if (!post) {
