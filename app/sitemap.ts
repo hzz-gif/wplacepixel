@@ -5,6 +5,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = 'https://wplacepixel.art'
   const currentDate = new Date().toISOString()
 
+  // Blog post slugs from generateStaticParams
+  const blogSlugs = [
+    'wplace-void',
+    'how-to-import-pixel-arts-or-images-into-wplace-live',
+    'how-to-search-cities-in-wplace-live',
+    'wplace-live-down'
+  ]
+
   // Static pages that support internationalization
   const internationalPages = [
     {
@@ -17,8 +25,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
       changeFreq: 'monthly' as const,
     },
-
-
     {
       url: '/showcase',
       priority: 0.7,
@@ -85,7 +91,28 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   })
 
-  // Blog posts section removed as database is not used
+  // Add blog posts for each locale
+  blogSlugs.forEach(slug => {
+    locales.forEach(locale => {
+      const isDefault = locale === 'en'
+      const localizedUrl = isDefault ? `/blog/${slug}` : `/${locale}/blog/${slug}`
+
+      sitemap.push({
+        url: `${baseUrl}${localizedUrl}`,
+        lastModified: currentDate,
+        changeFrequency: 'monthly' as const,
+        priority: isDefault ? 0.7 : 0.6,
+        alternates: {
+          languages: Object.fromEntries(
+            locales.map(loc => [
+              loc === 'en' ? 'x-default' : loc,
+              `${baseUrl}${loc === 'en' ? `/blog/${slug}` : `/${loc}/blog/${slug}`}`
+            ])
+          )
+        }
+      })
+    })
+  })
 
   return sitemap
 }

@@ -2,7 +2,6 @@ import "@/app/globals.css";
 
 import { MdOutlineHome } from "react-icons/md";
 import React from "react";
-import Script from "next/script";
 
 // Metadata is handled by individual page layouts
 

@@ -1,5 +1,7 @@
 import { Metadata } from "next";
 
+export const runtime = 'edge';
+
 export const metadata: Metadata = {
   title: "Blue Marble - Advanced Pixel Art Tool for WPlace.live | WPlace Pixel",
   description: "Discover Blue Marble, the revolutionary userscript that transforms your WPlace.live pixel art experience. Advanced template overlay, precise coordinates, and professional tools for collaborative pixel art creation.",
