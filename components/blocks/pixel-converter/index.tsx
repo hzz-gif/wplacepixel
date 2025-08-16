@@ -255,7 +255,7 @@ export default function PixelConverter({
   }, [pixelSize, colorDepth, outputSize, brightness, contrast, autoPreview, originalImage, isProcessing, convertToPixelArt])
 
   return (
-    <section className="py-16 px-4">
+    <section className="pt-8 pb-16 px-4">
       <div className="max-w-6xl mx-auto">
 
 

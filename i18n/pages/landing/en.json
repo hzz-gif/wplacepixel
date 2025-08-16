@@ -35,6 +35,10 @@
               "url": "/wplace-bot"
             },
             {
+              "title": "Wplace App",
+              "url": "/wplace-app"
+            },
+            {
               "title": "Down Detect",
               "url": "/is-wplace-down"
             }
@@ -146,7 +150,7 @@
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Use WPlace Pixel Converter",
+    "title": "Why Use WPlace Pixel",
     "label": "Benefits",
     "description": "WPlace Pixel is the perfect tool for creating collaborative pixel art on wplace.live - fast, easy, and optimized. WPlace Pixel transforms your creative process with advanced features designed specifically for the wplace.live community.",
     "items": [
@@ -218,7 +222,7 @@
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of WPlace Pixel Converter",
+    "title": "Key Features of WPlace Pixel",
     "description": "Everything you need to create perfect pixel art for wplace.live collaboration.",
     "items": [
       {
@@ -256,7 +260,7 @@
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "Artists Love WPlace Pixel Converter",
+    "title": "Artists Love WPlace Pixel",
     "description": "for creating amazing collaborative art.",
     "icon": "FaRegHeart",
     "items": [
@@ -280,7 +284,7 @@
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonial",
-    "title": "What Artists Say About WPlace Pixel Converter",
+    "title": "What Artists Say About WPlace Pixel",
     "description": "Hear from artists and creators who use our tool for wplace.live collaboration.",
     "icon": "GoThumbsup",
     "items": [
@@ -337,7 +341,7 @@
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About WPlace Pixel Converter",
+    "title": "Frequently Asked Questions About WPlace Pixel",
     "description": "Have another question? Visit wplace.live community or contact us.",
     "items": [
       {
@@ -389,7 +393,7 @@
     "name": "footer",
     "brand": {
       "title": "WPlace Pixel",
-      "description": "WPlace Pixel Converter transforms your photos into pixel art perfect for wplace.live collaborative canvas.",
+      "description": "WPlace Pixel transforms your photos into pixel art perfect for wplace.live collaborative canvas.",
       "logo": {
         "src": "/logo.png",
         "alt": "WPlace Pixel"

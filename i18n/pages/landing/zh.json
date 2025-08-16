@@ -35,6 +35,10 @@
               "url": "/wplace-bot"
             },
             {
+              "title": "Wplace App",
+              "url": "/wplace-app"
+            },
+            {
               "title": "宕机检测",
               "url": "/is-wplace-down"
             }
@@ -146,7 +150,7 @@
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么使用 WPlace Pixel 转换器",
+    "title": "为什么使用 WPlace Pixel",
     "label": "优势",
     "description": "WPlace Pixel 是在 wplace.live 上创建协作像素艺术的完美工具 - 快速、简单、优化。WPlace Pixel 通过专为 wplace.live 社区设计的先进功能来改变您的创作过程。",
     "items": [
@@ -218,7 +222,7 @@
   },
   "feature": {
     "name": "feature",
-    "title": "WPlace 像素转换器核心功能",
+    "title": "WPlace 像素核心功能",
     "description": "在 wplace.live 上创建完美像素艺术协作所需的一切。",
     "items": [
       {
@@ -256,7 +260,7 @@
   "stats": {
     "name": "stats",
     "label": "统计",
-    "title": "艺术家喜爱 WPlace 像素转换器",
+    "title": "艺术家喜爱 WPlace 像素",
     "description": "用于创建令人惊叹的协作艺术。",
     "icon": "FaRegHeart",
     "items": [
@@ -280,7 +284,7 @@
   "testimonial": {
     "name": "testimonial",
     "label": "用户评价",
-    "title": "艺术家如何评价 WPlace 像素转换器",
+    "title": "艺术家如何评价 WPlace 像素",
     "description": "听听使用我们工具进行 wplace.live 协作的艺术家和创作者怎么说。",
     "icon": "GoThumbsup",
     "items": [
@@ -337,7 +341,7 @@
   "faq": {
     "name": "faq",
     "label": "常见问题",
-    "title": "关于 WPlace 像素转换器的常见问题",
+    "title": "关于 WPlace 像素的常见问题",
     "description": "还有其他问题？访问 wplace.live 社区或联系我们。",
     "items": [
       {
@@ -389,7 +393,7 @@
     "name": "footer",
     "brand": {
       "title": "WPlace Pixel",
-      "description": "WPlace 像素转换器将您的照片转换为完美适配 wplace.live 协作画布的像素艺术。",
+      "description": "WPlace 像素将您的照片转换为完美适配 wplace.live 协作画布的像素艺术。",
       "logo": {
         "src": "/logo.png",
         "alt": "WPlace Pixel"

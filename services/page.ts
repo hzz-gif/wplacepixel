@@ -1,4 +1,4 @@
-import { LandingPage, ShowcasePage, SourcesPage, BlogPage, WplaceOverlayPage, WplaceBotPage, IsWplaceDownPage } from "@/types/pages/landing";
+import { LandingPage, ShowcasePage, SourcesPage, BlogPage, WplaceOverlayPage, WplaceBotPage, IsWplaceDownPage, WplaceAppPage } from "@/types/pages/landing";
 
 export async function getLandingPage(locale: string): Promise<LandingPage> {
   return (await getPage("landing", locale)) as LandingPage;
@@ -28,10 +28,14 @@ export async function getIsWplaceDownPage(locale: string): Promise<IsWplaceDownP
   return (await getPage("is-wplace-down", locale)) as IsWplaceDownPage;
 }
 
+export async function getWplaceAppPage(locale: string): Promise<WplaceAppPage> {
+  return (await getPage("wplace-app", locale)) as WplaceAppPage;
+}
+
 export async function getPage(
   name: string,
   locale: string
-): Promise<LandingPage | ShowcasePage | SourcesPage | BlogPage | WplaceOverlayPage | WplaceBotPage | IsWplaceDownPage> {
+): Promise<LandingPage | ShowcasePage | SourcesPage | BlogPage | WplaceOverlayPage | WplaceBotPage | IsWplaceDownPage | WplaceAppPage> {
   try {
     if (locale === "zh-CN") {
       locale = "zh";

@@ -58,6 +58,7 @@ export default function Header({ header }: { header: HeaderType }) {
       {/* Preload tools pages for faster navigation */}
       <link rel="prefetch" href="/wplace-overlay" />
       <link rel="prefetch" href="/wplace-bot" />
+      <link rel="prefetch" href="/wplace-app" />
       <link rel="prefetch" href="/is-wplace-down" />
 
       <section className="py-3">

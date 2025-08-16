@@ -51,3 +51,7 @@ export interface WplaceBotPage {
 export interface IsWplaceDownPage {
   is_wplace_down?: Section;
 }
+
+export interface WplaceAppPage {
+  wplace_app?: Section;
+}
