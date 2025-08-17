@@ -62,8 +62,44 @@ export default async function RootLayout({
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
 
+        {/* Favicon and Icons */}
+        <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <link rel="manifest" href="/manifest.json" />
+
+        {/* Additional icon sizes for better search engine recognition */}
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg" />
+
+        {/* Structured Data for Search Engines */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "WPlace Pixel",
+              "alternateName": "WPlace Pixel Art Converter",
+              "url": "https://wplacepixel.art",
+              "description": "Transform images into pixel art for WPlace.live. Professional pixel art converter, tools, and guides for collaborative pixel art creation.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "WPlace Pixel",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://wplacepixel.art/favicon.svg"
+                }
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://wplacepixel.art/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            })
+          }}
+        />
 
         {/* Google AdSense */}
         <script

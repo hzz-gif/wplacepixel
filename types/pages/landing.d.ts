@@ -55,3 +55,59 @@ export interface IsWplaceDownPage {
 export interface WplaceAppPage {
   wplace_app?: Section;
 }
+
+export interface GrassWonderPage {
+  metadata: {
+    title: string;
+    description: string;
+    keywords: string;
+  };
+  grassWonder: {
+    hero: {
+      title: string;
+      subtitle: string;
+      description: string;
+    };
+    about: {
+      title: string;
+      content: string[];
+    };
+    memorial: {
+      title: string;
+      description: string;
+      location: string;
+      coordinates: string;
+    };
+    community: {
+      title: string;
+      description: string;
+      links: Array<{
+        platform: string;
+        title: string;
+        url: string;
+        description: string;
+        members?: string;
+      }>;
+    };
+    videos: {
+      title: string;
+      description: string;
+      items: Array<{
+        title: string;
+        platform: string;
+        url: string;
+        thumbnail?: string;
+        views?: string;
+      }>;
+    };
+    testimonials: {
+      title: string;
+      items: Array<{
+        author: string;
+        platform: string;
+        content: string;
+        date?: string;
+      }>;
+    };
+  };
+}

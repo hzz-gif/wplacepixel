@@ -1,0 +1,45 @@
+{
+  "name": "WPlace Pixel - Pixel Art Converter & Tools",
+  "short_name": "WPlace Pixel",
+  "description": "Transform images into pixel art for WPlace.live. Professional pixel art converter, tools, and guides for collaborative pixel art creation.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/imgs/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/imgs/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["graphics", "utilities", "productivity"],
+  "screenshots": [
+    {
+      "src": "/imgs/showcases/converter-screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

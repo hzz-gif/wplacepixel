@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "WPlace 草上飞 - 像素艺术致敬",
+    "description": "探索WPlace.live中感人的WPlace草上飞 - 由社区创建的协作像素艺术致敬。了解这个美丽的纪念碑并加入社区。",
+    "keywords": "WPlace草上飞, WPlace纪念碑, 像素艺术致敬, 协作艺术, WPlace.live, 社区纪念碑, 菲律宾纪念碑"
+  },
+  "grassWonder": {
+    "hero": {
+      "title": "🌱 WPlace 草上飞",
+      "subtitle": "WPlace.live中的美丽致敬",
+      "description": "WPlace草上飞是WPlace.live中最感人和美丽的协作像素艺术致敬之一，由充满热情的社区创建，以纪念草上飞的记忆。"
+    },
+    "about": {
+      "title": "什么是WPlace草上飞纪念碑？",
+      "content": [
+        "草上飞纪念碑是位于WPlace.live中的协作像素艺术致敬，由社区创建以纪念草上飞的记忆，这是一匹来自日本的beloved赛马，俘获了全世界的心。",
+        "这个纪念碑代表了集体创造力和纪念的力量，成千上万的用户聚集在一起创造了美丽而有意义的东西。像素艺术致敬展示了来自世界各地粉丝的复杂细节和衷心信息。",
+        "位于WPlace.live的菲律宾区域，这个纪念碑已成为粉丝和艺术爱好者的朝圣地，展示了数字空间如何成为有意义的纪念和社区聚集场所。"
+      ]
+    },
+    "memorial": {
+      "title": "📍 WPlace草上飞位置",
+      "description": "访问WPlace.live中的草上飞纪念碑，向这个美丽的致敬表示敬意。",
+      "location": "菲律宾区域, WPlace.live",
+      "coordinates": "交互式像素画布"
+    },
+    "community": {
+      "title": "WPlace草上飞社区",
+      "description": "与帮助创建和维护这个美丽纪念碑的粉丝和贡献者联系。",
+      "links": [
+        {
+          "platform": "Facebook",
+          "title": "草上飞纪念碑帖子",
+          "url": "https://www.facebook.com/groups/reincarnatedlowres/posts/2008534179914470/",
+          "description": "社区关于WPlace中草上飞纪念碑的讨论。",
+          "members": "像素艺术爱好者的活跃社区",
+          "imageUrl": "/imgs/grass-wonder-facebook.png"
+        },
+        {
+          "platform": "Reddit",
+          "title": "草上飞艺术作品讨论",
+          "url": "https://www.reddit.com/r/WplaceLive/comments/1mqp2e4/grass_wonder_artwork_got_griefed/",
+          "description": "Reddit上关于草上飞艺术作品和社区保护努力的讨论。",
+          "members": "WPlace Live社区",
+          "embedUrl": "https://www.redditmedia.com/r/WplaceLive/comments/1mqp2e4/grass_wonder_artwork_got_griefed/?ref_source=embed&ref=share&embed=true"
+        },
+        {
+          "platform": "WPlace.live",
+          "title": "官方WPlace",
+          "url": "https://wplace.live",
+          "description": "访问官方WPlace.live平台查看纪念碑并为画布做贡献。",
+          "members": "全球协作像素艺术平台"
+        }
+      ]
+    },
+    "videos": {
+      "title": "📹 WPlace草上飞视频",
+      "description": "观看社区展示草上飞纪念碑及其创建过程的视频。",
+      "items": [
+        {
+          "title": "草上飞纪念碑视频",
+          "platform": "TikTok",
+          "url": "https://www.tiktok.com/@mr_baller221/video/7538273403493518610",
+          "views": "@mr_baller221",
+          "embedUrl": "https://www.tiktok.com/embed/v2/7538273403493518610"
+        },
+        {
+          "title": "草上飞致敬发现",
+          "platform": "TikTok",
+          "url": "https://www.tiktok.com/@lilylover23/video/7538700521411071263",
+          "views": "@lilylover23",
+          "embedUrl": "https://www.tiktok.com/embed/v2/7538700521411071263"
+        },
+        {
+          "title": "WPlace纪念碑之旅",
+          "platform": "社区",
+          "url": "https://wplace.live",
+          "views": "交互式体验"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "💬 WPlace草上飞社区声音",
+      "items": [
+        {
+          "author": "WPlace社区成员",
+          "platform": "Facebook",
+          "content": "草上飞纪念碑绝对美丽。社区聚集在一起创造如此有意义和感人的东西真是太棒了。",
+          "date": "最近"
+        },
+        {
+          "author": "像素艺术爱好者",
+          "platform": "Reddit",
+          "content": "这个纪念碑展示了协作艺术的真正力量。每个像素都是用爱和尊重放置的。",
+          "date": "最近"
+        },
+        {
+          "author": "Uma Musume粉丝",
+          "platform": "TikTok",
+          "content": "在WPlace中发现了草上飞纪念碑，让我热泪盈眶。如此美丽的致敬。",
+          "date": "最近"
+        },
+        {
+          "author": "数字艺术家",
+          "platform": "社区",
+          "content": "这个纪念碑的细节关注令人难以置信。这证明了社区可以共同实现什么。",
+          "date": "最近"
+        },
+        {
+          "author": "WPlace贡献者",
+          "platform": "Facebook",
+          "content": "参与草上飞纪念碑的工作是一种荣誉。这不仅仅是像素艺术 - 这是爱的劳动。",
+          "date": "最近"
+        },
+        {
+          "author": "国际粉丝",
+          "platform": "Reddit",
+          "content": "WPlace中的草上飞纪念碑已成为世界各地粉丝聚集和纪念的特殊场所。",
+          "date": "最近"
+        }
+      ]
+    }
+  }
+}

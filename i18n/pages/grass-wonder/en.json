@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "WPlace Grass Wonder - Pixel Art Tribute",
+    "description": "Discover the touching WPlace Grass Wonder in WPlace.live - a collaborative pixel art tribute created by the community. Learn about this beautiful memorial and join the community.",
+    "keywords": "WPlace Grass Wonder, WPlace memorial, pixel art tribute, collaborative art, WPlace.live, community memorial, Philippines memorial"
+  },
+  "grassWonder": {
+    "hero": {
+      "title": "🌱 WPlace Grass Wonder",
+      "subtitle": "A Beautiful Tribute in WPlace.live",
+      "description": "The WPlace Grass Wonder stands as one of the most touching and beautiful collaborative pixel art tributes in WPlace.live, created by a passionate community to honor the memory of Grass Wonder."
+    },
+    "about": {
+      "title": "What is WPlace Grass Wonder Memorial?",
+      "content": [
+        "The WPlace Grass Wonder is a collaborative pixel art tribute located in WPlace.live, created by the community to honor the memory of Grass Wonder, a beloved racehorse from Japan who captured hearts around the world.",
+        "This memorial represents the power of collective creativity and remembrance, where thousands of users came together to create something beautiful and meaningful. The pixel art tribute showcases intricate details and heartfelt messages from fans worldwide.",
+        "Located in the Philippines section of WPlace.live, this memorial has become a pilgrimage site for fans and art enthusiasts alike, demonstrating how digital spaces can serve as meaningful places of remembrance and community gathering."
+      ]
+    },
+    "memorial": {
+      "title": "📍 WPlace Grass Wonder Location",
+      "description": "Visit the Grass Wonder memorial in WPlace.live and pay your respects to this beautiful tribute.",
+      "location": "Philippines Region, WPlace.live",
+      "coordinates": "Interactive Pixel Canvas"
+    },
+    "community": {
+      "title": "WPlace Grass Wonder Community",
+      "description": "Connect with fellow fans and contributors who helped create and maintain this beautiful memorial.",
+      "links": [
+        {
+          "platform": "Facebook",
+          "title": "Grass Wonder Memorial Post",
+          "url": "https://www.facebook.com/groups/reincarnatedlowres/posts/2008534179914470/",
+          "description": "Community discussion about the Grass Wonder memorial in WPlace.",
+          "members": "Active community of pixel art enthusiasts",
+          "imageUrl": "/imgs/grass-wonder-facebook.png"
+        },
+        {
+          "platform": "Reddit",
+          "title": "Grass Wonder Artwork Discussion",
+          "url": "https://www.reddit.com/r/WplaceLive/comments/1mqp2e4/grass_wonder_artwork_got_griefed/",
+          "description": "Reddit discussion about the Grass Wonder artwork and community protection efforts.",
+          "members": "WPlace Live community",
+          "embedUrl": "https://www.redditmedia.com/r/WplaceLive/comments/1mqp2e4/grass_wonder_artwork_got_griefed/?ref_source=embed&ref=share&embed=true"
+        },
+        {
+          "platform": "WPlace.live",
+          "title": "Official WPlace",
+          "url": "https://wplace.live",
+          "description": "Visit the official WPlace.live platform to see the memorial and contribute to the canvas.",
+          "members": "Global collaborative pixel art platform"
+        }
+      ]
+    },
+    "videos": {
+      "title": "📹 WPlace Grass Wonder Videos",
+      "description": "Watch videos from the community showcasing the Grass Wonder memorial and its creation process.",
+      "items": [
+        {
+          "title": "Grass Wonder Memorial Video",
+          "platform": "TikTok",
+          "url": "https://www.tiktok.com/@mr_baller221/video/7538273403493518610",
+          "views": "@mr_baller221",
+          "embedUrl": "https://www.tiktok.com/embed/v2/7538273403493518610"
+        },
+        {
+          "title": "Grass Wonder Tribute Discovery",
+          "platform": "TikTok",
+          "url": "https://www.tiktok.com/@lilylover23/video/7538700521411071263",
+          "views": "@lilylover23",
+          "embedUrl": "https://www.tiktok.com/embed/v2/7538700521411071263"
+        },
+        {
+          "title": "WPlace Memorial Tour",
+          "platform": "Community",
+          "url": "https://wplace.live",
+          "views": "Interactive experience"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "💬 WPlace Grass Wonder Community Voices",
+      "items": [
+        {
+          "author": "WPlace Community Member",
+          "platform": "Facebook",
+          "content": "The Grass Wonder memorial is absolutely beautiful. It's amazing how the community came together to create something so meaningful and touching.",
+          "date": "Recent"
+        },
+        {
+          "author": "Pixel Art Enthusiast",
+          "platform": "Reddit",
+          "content": "This memorial shows the true power of collaborative art. Every pixel was placed with love and respect.",
+          "date": "Recent"
+        },
+        {
+          "author": "Uma Musume Fan",
+          "platform": "TikTok",
+          "content": "Found the Grass Wonder memorial in WPlace and it brought tears to my eyes. Such a beautiful tribute.",
+          "date": "Recent"
+        },
+        {
+          "author": "Digital Artist",
+          "platform": "Community",
+          "content": "The attention to detail in this memorial is incredible. It's a testament to what communities can achieve together.",
+          "date": "Recent"
+        },
+        {
+          "author": "WPlace Contributor",
+          "platform": "Facebook",
+          "content": "Working on the Grass Wonder memorial was an honor. It's more than just pixel art - it's a labor of love.",
+          "date": "Recent"
+        },
+        {
+          "author": "International Fan",
+          "platform": "Reddit",
+          "content": "The Grass Wonder memorial in WPlace has become a special place for fans worldwide to come together and remember.",
+          "date": "Recent"
+        }
+      ]
+    }
+  }
+}
