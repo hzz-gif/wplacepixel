@@ -50,6 +50,7 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head suppressHydrationWarning>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
         {googleAdsenseCode && (
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
