@@ -26,7 +26,7 @@ export default function GrassWonder() {
                 A Beautiful Tribute in WPlace.live
               </p>
               <p className="text-lg text-gray-600 mb-8">
-                The WPlace Grass Wonder stands as one of the most touching and beautiful collaborative pixel art tributes in WPlace.live, created by a passionate community to honor the memory of Grass Wonder.
+                The WPlace Grass Wonder stands as one of the most touching and beautiful collaborative pixel art tributes in WPlace.live, created by a passionate community to honor the memory of Grass Wonder. This WPlace Grass Wonder memorial showcases the incredible power of collective creativity and digital artistry.
               </p>
               <Button asChild size="lg" className="mb-4">
                 <Link href="https://wplace.live" target="_blank" rel="noopener noreferrer">
@@ -64,13 +64,13 @@ export default function GrassWonder() {
           </div>
           <div className="max-w-4xl mx-auto">
             <div className="text-lg text-gray-700 leading-relaxed mb-6">
-              The WPlace Grass Wonder is a collaborative pixel art tribute located in WPlace.live, created by the community to honor the memory of Grass Wonder, a beloved racehorse from Japan who captured hearts around the world.
+              The WPlace Grass Wonder is a collaborative pixel art tribute located in WPlace.live, created by the community to honor the memory of Grass Wonder, a beloved racehorse from Japan who captured hearts around the world. This WPlace Grass Wonder memorial represents one of the most significant community-driven art projects in the digital space.
             </div>
             <div className="text-lg text-gray-700 leading-relaxed mb-6">
-              This memorial represents the power of collective creativity and remembrance, where thousands of users came together to create something beautiful and meaningful. The pixel art tribute showcases intricate details and heartfelt messages from fans worldwide.
+              This WPlace Grass Wonder memorial represents the power of collective creativity and remembrance, where thousands of users came together to create something beautiful and meaningful. The pixel art tribute showcases intricate details and heartfelt messages from fans worldwide, making the WPlace Grass Wonder a truly special place for remembrance.
             </div>
             <div className="text-lg text-gray-700 leading-relaxed mb-6">
-              Located in the Philippines section of WPlace.live, this memorial has become a pilgrimage site for fans and art enthusiasts alike, demonstrating how digital spaces can serve as meaningful places of remembrance and community gathering.
+              Located in the Philippines section of WPlace.live, this WPlace Grass Wonder memorial has become a pilgrimage site for fans and art enthusiasts alike, demonstrating how digital spaces can serve as meaningful places of remembrance and community gathering. The WPlace Grass Wonder continues to inspire new visitors daily.
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function GrassWonder() {
               📍 WPlace Grass Wonder Location
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Visit the Grass Wonder memorial in WPlace.live and pay your respects to this beautiful tribute.
+              Visit the WPlace Grass Wonder memorial in WPlace.live and pay your respects to this beautiful tribute. The WPlace Grass Wonder location serves as a digital landmark for fans worldwide.
             </p>
           </div>
           <div className="max-w-2xl mx-auto">
@@ -117,7 +117,7 @@ export default function GrassWonder() {
               WPlace Grass Wonder Community
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Connect with fellow fans and contributors who helped create and maintain this beautiful memorial.
+              Connect with fellow fans and contributors who helped create and maintain this beautiful WPlace Grass Wonder memorial. Join the WPlace Grass Wonder community to share your experiences and memories.
             </p>
           </div>
           <div className="space-y-8 max-w-4xl mx-auto">
@@ -141,7 +141,7 @@ export default function GrassWonder() {
                       loading="lazy"
                     />
                   </div>
-                  <p className="text-gray-600 mb-4">Community discussion about the Grass Wonder memorial in WPlace.</p>
+                  <p className="text-gray-600 mb-4">Community discussion about the WPlace Grass Wonder memorial in WPlace. Join the conversation about WPlace Grass Wonder and share your thoughts.</p>
                   <p className="text-sm text-gray-500 mb-4">Active community of pixel art enthusiasts</p>
                   <Button asChild className="w-full">
                     <Link href="https://www.facebook.com/groups/reincarnatedlowres/posts/2008534179914470/" target="_blank" rel="noopener noreferrer">
@@ -174,7 +174,7 @@ export default function GrassWonder() {
                       className="w-full"
                     />
                   </div>
-                  <p className="text-gray-600 mb-4">Reddit discussion about the Grass Wonder artwork and community protection efforts.</p>
+                  <p className="text-gray-600 mb-4">Reddit discussion about the WPlace Grass Wonder artwork and community protection efforts. Discover how the WPlace Grass Wonder community works together to preserve this memorial.</p>
                   <p className="text-sm text-gray-500 mb-4">WPlace Live community</p>
                   <Button asChild className="w-full">
                     <Link href="https://www.reddit.com/r/WplaceLive/comments/1mqp2e4/grass_wonder_artwork_got_griefed/" target="_blank" rel="noopener noreferrer">
@@ -197,7 +197,7 @@ export default function GrassWonder() {
                   <CardDescription>Official WPlace</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4">Visit the official WPlace.live platform to see the memorial and contribute to the canvas.</p>
+                  <p className="text-gray-600 mb-4">Visit the official WPlace.live platform to see the WPlace Grass Wonder memorial and contribute to the canvas. Experience WPlace Grass Wonder firsthand on the interactive platform.</p>
                   <p className="text-sm text-gray-500 mb-4">Global collaborative pixel art platform</p>
                   <Button asChild className="w-full">
                     <Link href="https://wplace.live" target="_blank" rel="noopener noreferrer">
@@ -220,7 +220,7 @@ export default function GrassWonder() {
               📹 WPlace Grass Wonder Videos
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Watch videos from the community showcasing the Grass Wonder memorial and its creation process.
+              Watch videos from the community showcasing the WPlace Grass Wonder memorial and its creation process. These WPlace Grass Wonder videos capture the essence of this remarkable digital tribute.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -309,7 +309,7 @@ export default function GrassWonder() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 italic">"The Grass Wonder memorial is absolutely beautiful. It's amazing how the community came together to create something so meaningful and touching."</p>
+                <p className="text-gray-700 italic">"The WPlace Grass Wonder memorial is absolutely beautiful. It's amazing how the community came together to create something so meaningful and touching. WPlace Grass Wonder truly represents the best of collaborative art."</p>
               </CardContent>
             </Card>
 
@@ -339,7 +339,7 @@ export default function GrassWonder() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 italic">"Found the Grass Wonder memorial in WPlace and it brought tears to my eyes. Such a beautiful tribute."</p>
+                <p className="text-gray-700 italic">"Found the WPlace Grass Wonder memorial in WPlace and it brought tears to my eyes. Such a beautiful tribute. The WPlace Grass Wonder is truly a masterpiece of digital art."</p>
               </CardContent>
             </Card>
 
@@ -384,7 +384,7 @@ export default function GrassWonder() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-gray-700 italic">"The Grass Wonder memorial in WPlace has become a special place for fans worldwide to come together and remember."</p>
+                <p className="text-gray-700 italic">"The WPlace Grass Wonder memorial in WPlace has become a special place for fans worldwide to come together and remember. WPlace Grass Wonder brings people together from all corners of the globe."</p>
               </CardContent>
             </Card>
           </div>
