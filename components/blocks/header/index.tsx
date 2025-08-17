@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import { useState, useRef, useEffect } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -17,6 +18,12 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 import {
   Select,
   SelectContent,
@@ -43,6 +50,14 @@ import { cn } from "@/lib/utils";
 
 export default function Header({ header }: { header: HeaderType }) {
   const router = useRouter();
+  const [openDropdown, setOpenDropdown] = useState<number | null>(null);
+  const [isClient, setIsClient] = useState(false);
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // 确保只在客户端渲染时启用交互功能
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   if (header.disabled) {
     return null;
@@ -51,6 +66,24 @@ export default function Header({ header }: { header: HeaderType }) {
   const handleToolsNavigation = (url: string) => {
     // 使用 router.push 进行快速导航
     router.push(url);
+    setOpenDropdown(null); // 导航后关闭下拉菜单
+  };
+
+  const handleMouseEnter = (index: number) => {
+    // 清除之前的延迟关闭定时器
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
+    }
+    // 立即打开下拉菜单
+    setOpenDropdown(index);
+  };
+
+  const handleMouseLeave = () => {
+    // 延迟关闭下拉菜单，给用户时间移动到下拉菜单内容
+    hoverTimeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150); // 150ms 延迟
   };
 
   return (
@@ -88,24 +121,69 @@ export default function Header({ header }: { header: HeaderType }) {
                   {header.nav?.items?.map((item, i) => {
                     if (item.children && item.children.length > 0) {
                       return (
-                        <div key={i} className="flex items-center">
-                          <Select onValueChange={handleToolsNavigation}>
-                            <SelectTrigger className="flex items-center gap-2 border-none text-muted-foreground outline-hidden hover:bg-transparent focus:ring-0 focus:ring-offset-0 text-base bg-transparent">
-                              <span>{item.title}</span>
-                            </SelectTrigger>
-                            <SelectContent className="z-50 bg-background">
-                              {item.children.map((iitem, ii) => (
-                                <SelectItem
-                                  key={ii}
-                                  className="cursor-pointer px-4"
-                                  value={iitem.url as string}
-                                >
-                                  {iitem.title}
-                                </SelectItem>
-                              ))}
-                            </SelectContent>
-                          </Select>
-                        </div>
+                        <NavigationMenuItem key={i}>
+                          <div
+                            className="relative"
+                            {...(isClient ? {
+                              onMouseEnter: () => handleMouseEnter(i),
+                              onMouseLeave: handleMouseLeave
+                            } : {})}
+                          >
+                            <DropdownMenu
+                              open={isClient ? openDropdown === i : false}
+                              onOpenChange={(open) => {
+                                if (!open && isClient) setOpenDropdown(null);
+                              }}
+                            >
+                              <DropdownMenuTrigger
+                                className="flex items-center gap-2 border-none text-muted-foreground outline-hidden hover:bg-accent hover:text-accent-foreground focus:ring-0 focus:ring-offset-0 text-base bg-transparent px-4 py-2 rounded-md transition-colors"
+                                asChild
+                              >
+                                <button>
+                                  <span>{item.title}</span>
+                                  <svg
+                                    className={`ml-1 h-3 w-3 transition duration-200 ${isClient && openDropdown === i ? 'rotate-180' : ''}`}
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M19 9l-7 7-7-7"
+                                    />
+                                  </svg>
+                                </button>
+                              </DropdownMenuTrigger>
+                              <DropdownMenuContent
+                                className="z-50 bg-background min-w-[200px]"
+                                align="start"
+                                sideOffset={5}
+                                {...(isClient ? {
+                                  onMouseEnter: () => {
+                                    // 鼠标进入下拉菜单时，清除关闭定时器
+                                    if (hoverTimeoutRef.current) {
+                                      clearTimeout(hoverTimeoutRef.current);
+                                      hoverTimeoutRef.current = null;
+                                    }
+                                  },
+                                  onMouseLeave: handleMouseLeave
+                                } : {})}
+                              >
+                                {item.children.map((iitem, ii) => (
+                                  <DropdownMenuItem
+                                    key={ii}
+                                    className="cursor-pointer px-4 py-2 hover:bg-accent hover:text-accent-foreground"
+                                    onClick={() => handleToolsNavigation(iitem.url as string)}
+                                  >
+                                    {iitem.title}
+                                  </DropdownMenuItem>
+                                ))}
+                              </DropdownMenuContent>
+                            </DropdownMenu>
+                          </div>
+                        </NavigationMenuItem>
                       );
                     }
 
