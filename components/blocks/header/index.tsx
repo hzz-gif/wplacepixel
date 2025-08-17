@@ -1,7 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import {
   Accordion,
   AccordionContent,
@@ -51,13 +51,7 @@ import { cn } from "@/lib/utils";
 export default function Header({ header }: { header: HeaderType }) {
   const router = useRouter();
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);
-  const [isClient, setIsClient] = useState(false);
   const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  // 确保只在客户端渲染时启用交互功能
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
 
   if (header.disabled) {
     return null;
@@ -124,15 +118,13 @@ export default function Header({ header }: { header: HeaderType }) {
                         <NavigationMenuItem key={i}>
                           <div
                             className="relative"
-                            {...(isClient ? {
-                              onMouseEnter: () => handleMouseEnter(i),
-                              onMouseLeave: handleMouseLeave
-                            } : {})}
+                            onMouseEnter={() => handleMouseEnter(i)}
+                            onMouseLeave={handleMouseLeave}
                           >
                             <DropdownMenu
-                              open={isClient ? openDropdown === i : false}
+                              open={openDropdown === i}
                               onOpenChange={(open) => {
-                                if (!open && isClient) setOpenDropdown(null);
+                                if (!open) setOpenDropdown(null);
                               }}
                             >
                               <DropdownMenuTrigger
@@ -142,7 +134,7 @@ export default function Header({ header }: { header: HeaderType }) {
                                 <button>
                                   <span>{item.title}</span>
                                   <svg
-                                    className={`ml-1 h-3 w-3 transition duration-200 ${isClient && openDropdown === i ? 'rotate-180' : ''}`}
+                                    className={`ml-1 h-3 w-3 transition duration-200 ${openDropdown === i ? 'rotate-180' : ''}`}
                                     fill="none"
                                     stroke="currentColor"
                                     viewBox="0 0 24 24"
@@ -160,16 +152,14 @@ export default function Header({ header }: { header: HeaderType }) {
                                 className="z-50 bg-background min-w-[200px]"
                                 align="start"
                                 sideOffset={5}
-                                {...(isClient ? {
-                                  onMouseEnter: () => {
-                                    // 鼠标进入下拉菜单时，清除关闭定时器
-                                    if (hoverTimeoutRef.current) {
-                                      clearTimeout(hoverTimeoutRef.current);
-                                      hoverTimeoutRef.current = null;
-                                    }
-                                  },
-                                  onMouseLeave: handleMouseLeave
-                                } : {})}
+                                onMouseEnter={() => {
+                                  // 鼠标进入下拉菜单时，清除关闭定时器
+                                  if (hoverTimeoutRef.current) {
+                                    clearTimeout(hoverTimeoutRef.current);
+                                    hoverTimeoutRef.current = null;
+                                  }
+                                }}
+                                onMouseLeave={handleMouseLeave}
                               >
                                 {item.children.map((iitem, ii) => (
                                   <DropdownMenuItem
