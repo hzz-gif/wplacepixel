@@ -15,3 +15,26 @@
 .container {
   @apply mx-auto max-w-7xl px-4 md:px-8;
 }
+
+/* Ensure ad iframes work properly */
+iframe[src*="highperformanceformat.com"] {
+  border: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  pointer-events: auto !important;
+  display: block !important;
+}
+
+/* Ensure ad containers are not affected by parent styles */
+div[style*="highperformanceformat.com"] {
+  overflow: visible !important;
+  pointer-events: auto !important;
+  position: relative !important;
+}
+
+/* Ensure side ads are always visible */
+.fixed[style*="300px"][style*="250px"],
+.fixed[style*="160px"][style*="300px"] {
+  overflow: visible !important;
+  pointer-events: auto !important;
+}

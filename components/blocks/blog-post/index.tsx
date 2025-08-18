@@ -39,11 +39,16 @@ export default function BlogPost({ post }: BlogPostProps) {
 
           {/* Banner Ad after H1 */}
           <div className="flex justify-center my-6">
-            <div style={{ width: '728px', height: '90px', maxWidth: '100%' }}>
-              <script
-                type="text/javascript"
-                dangerouslySetInnerHTML={{
-                  __html: `
+            <div
+              style={{
+                width: '728px',
+                height: '90px',
+                maxWidth: '100%',
+                border: '1px solid #e5e7eb'
+              }}
+              dangerouslySetInnerHTML={{
+                __html: `
+                  <script type="text/javascript">
                     atOptions = {
                       'key' : 'f47696853cd45a5d374e573723475380',
                       'format' : 'iframe',
@@ -51,14 +56,11 @@ export default function BlogPost({ post }: BlogPostProps) {
                       'width' : 728,
                       'params' : {}
                     };
-                  `,
-                }}
-              />
-              <script
-                type="text/javascript"
-                src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"
-              />
-            </div>
+                  </script>
+                  <script type="text/javascript" src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"></script>
+                `
+              }}
+            />
           </div>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">

@@ -425,7 +425,7 @@ export default function PixelConverter({
           </div>
 
           {/* Result */}
-          <div className="space-y-6">
+          <div className="space-y-6 relative">
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
@@ -440,9 +440,9 @@ export default function PixelConverter({
                 {pixelArt ? (
                   <div className="space-y-4">
                     <div className="border rounded-lg p-4 bg-muted/50">
-                      <img 
-                        src={pixelArt} 
-                        alt="Pixel Art" 
+                      <img
+                        src={pixelArt}
+                        alt="Pixel Art"
                         className="max-w-full mx-auto rounded"
                         style={{ imageRendering: 'pixelated' }}
                       />
@@ -465,6 +465,31 @@ export default function PixelConverter({
                 )}
               </CardContent>
             </Card>
+
+            {/* Right Bottom Corner Ad */}
+            <div className="absolute bottom-0 right-0 z-10">
+              <div
+                style={{
+                  width: '300px',
+                  height: '250px',
+                  border: '1px solid #e5e7eb'
+                }}
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    <script type="text/javascript">
+                      atOptions = {
+                        'key' : '484b266368589cbc7157b77a607ca7c6',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                      };
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/484b266368589cbc7157b77a607ca7c6/invoke.js"></script>
+                  `
+                }}
+              />
+            </div>
           </div>
         </div>
 

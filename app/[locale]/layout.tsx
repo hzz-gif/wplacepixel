@@ -11,6 +11,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { createMetadataWithBase } from "@/lib/metadata";
+import SideAds from "@/components/blocks/hero/side-ads";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -136,13 +137,14 @@ export default async function RootLayout({
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased overflow-x-hidden",
+          "min-h-screen bg-background font-sans antialiased",
           fontSans.variable
         )}
       >
         <NextIntlClientProvider messages={messages}>
           <AppContextProvider>
             <ThemeProvider attribute="class" disableTransitionOnChange>
+              <SideAds />
               {children}
             </ThemeProvider>
           </AppContextProvider>

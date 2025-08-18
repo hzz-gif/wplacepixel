@@ -33,11 +33,16 @@ export default function WplaceBot({ section }: { section: any }) {
 
             {/* Banner Ad after H1 */}
             <div className="flex justify-center my-6">
-              <div style={{ width: '728px', height: '90px', maxWidth: '100%' }}>
-                <script
-                  type="text/javascript"
-                  dangerouslySetInnerHTML={{
-                    __html: `
+              <div
+                style={{
+                  width: '728px',
+                  height: '90px',
+                  maxWidth: '100%',
+                  border: '1px solid #e5e7eb'
+                }}
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    <script type="text/javascript">
                       atOptions = {
                         'key' : 'f47696853cd45a5d374e573723475380',
                         'format' : 'iframe',
@@ -45,14 +50,11 @@ export default function WplaceBot({ section }: { section: any }) {
                         'width' : 728,
                         'params' : {}
                       };
-                    `,
-                  }}
-                />
-                <script
-                  type="text/javascript"
-                  src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"
-                />
-              </div>
+                    </script>
+                    <script type="text/javascript" src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"></script>
+                  `
+                }}
+              />
             </div>
             <p className="text-xl text-gray-600 mb-4">
               {hero.subtitle}
@@ -60,6 +62,18 @@ export default function WplaceBot({ section }: { section: any }) {
             <p className="text-lg text-gray-600 mb-8 max-w-3xl mx-auto">
               {hero.description}
             </p>
+
+            {/* Bottom Hero Ad */}
+            <div className="flex justify-center mt-8">
+              <div
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    <script async="async" data-cfasync="false" src="//pl27443576.profitableratecpm.com/9d425e34362e2f5bc87c3e554332d13f/invoke.js"></script>
+                    <div id="container-9d425e34362e2f5bc87c3e554332d13f"></div>
+                  `
+                }}
+              />
+            </div>
           </div>
         </section>
       )}
