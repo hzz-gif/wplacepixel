@@ -36,6 +36,30 @@ export default function BlogPost({ post }: BlogPostProps) {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             {post.title}
           </h1>
+
+          {/* Banner Ad after H1 */}
+          <div className="flex justify-center my-6">
+            <div style={{ width: '728px', height: '90px', maxWidth: '100%' }}>
+              <script
+                type="text/javascript"
+                dangerouslySetInnerHTML={{
+                  __html: `
+                    atOptions = {
+                      'key' : 'f47696853cd45a5d374e573723475380',
+                      'format' : 'iframe',
+                      'height' : 90,
+                      'width' : 728,
+                      'params' : {}
+                    };
+                  `,
+                }}
+              />
+              <script
+                type="text/javascript"
+                src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"
+              />
+            </div>
+          </div>
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             {post.description}

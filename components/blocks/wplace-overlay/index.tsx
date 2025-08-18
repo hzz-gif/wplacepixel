@@ -44,6 +44,30 @@ export default function WplaceOverlay({ section }: { section: any }) {
                 <h1 className="text-5xl lg:text-7xl font-bold tracking-tight">
                   {hero.title}
                 </h1>
+
+                {/* Banner Ad after H1 */}
+                <div className="flex justify-center my-6">
+                  <div style={{ width: '728px', height: '90px', maxWidth: '100%' }}>
+                    <script
+                      type="text/javascript"
+                      dangerouslySetInnerHTML={{
+                        __html: `
+                          atOptions = {
+                            'key' : 'f47696853cd45a5d374e573723475380',
+                            'format' : 'iframe',
+                            'height' : 90,
+                            'width' : 728,
+                            'params' : {}
+                          };
+                        `,
+                      }}
+                    />
+                    <script
+                      type="text/javascript"
+                      src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"
+                    />
+                  </div>
+                </div>
                 <p className="text-xl lg:text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
                   {hero.subtitle}
                 </p>

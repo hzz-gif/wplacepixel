@@ -59,27 +59,7 @@ export default async function RootLayout({
       <head suppressHydrationWarning>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        {/* Ad Scripts */}
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-              atOptions = {
-                'key' : '484b266368589cbc7157b77a607ca7c6',
-                'format' : 'iframe',
-                'height' : 250,
-                'width' : 300,
-                'params' : {}
-              };
-            `,
-          }}
-          suppressHydrationWarning
-        />
-        <script
-          type="text/javascript"
-          src="https://www.highperformanceformat.com/484b266368589cbc7157b77a607ca7c6/invoke.js"
-          suppressHydrationWarning
-        />
+
 
         {googleAdsenseCode && (
           <meta name="google-adsense-account" content={googleAdsenseCode} />

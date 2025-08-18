@@ -58,6 +58,30 @@ export default function Hero({ hero }: { hero: HeroType }) {
               </h1>
             )}
 
+            {/* Banner Ad after H1 */}
+            <div className="flex justify-center my-6">
+              <div style={{ width: '728px', height: '90px', maxWidth: '100%' }}>
+                <script
+                  type="text/javascript"
+                  dangerouslySetInnerHTML={{
+                    __html: `
+                      atOptions = {
+                        'key' : 'f47696853cd45a5d374e573723475380',
+                        'format' : 'iframe',
+                        'height' : 90,
+                        'width' : 728,
+                        'params' : {}
+                      };
+                    `,
+                  }}
+                />
+                <script
+                  type="text/javascript"
+                  src="//www.highperformanceformat.com/f47696853cd45a5d374e573723475380/invoke.js"
+                />
+              </div>
+            </div>
+
             <p
               className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl"
               dangerouslySetInnerHTML={{ __html: hero.description || "" }}
