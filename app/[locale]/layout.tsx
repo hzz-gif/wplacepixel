@@ -11,7 +11,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { createMetadataWithBase } from "@/lib/metadata";
-import AdScript from "@/components/AdScript";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -60,7 +59,27 @@ export default async function RootLayout({
       <head suppressHydrationWarning>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
+        {/* Ad Scripts */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              atOptions = {
+                'key' : '484b266368589cbc7157b77a607ca7c6',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            `,
+          }}
+          suppressHydrationWarning
+        />
+        <script
+          type="text/javascript"
+          src="https://www.highperformanceformat.com/484b266368589cbc7157b77a607ca7c6/invoke.js"
+          suppressHydrationWarning
+        />
 
         {googleAdsenseCode && (
           <meta name="google-adsense-account" content={googleAdsenseCode} />
@@ -95,6 +114,35 @@ export default async function RootLayout({
           suppressHydrationWarning
         />
 
+        {/* Structured Data for Search Engines */}
+        <script
+          type="application/ld+json"
+          suppressHydrationWarning
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "name": "WPlace Pixel",
+              "alternateName": "WPlace Pixel Art Converter",
+              "url": "https://wplacepixel.art",
+              "description": "Transform images into pixel art for WPlace.live. Professional pixel art converter, tools, and guides for collaborative pixel art creation.",
+              "publisher": {
+                "@type": "Organization",
+                "name": "WPlace Pixel",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://wplacepixel.art/favicon.svg"
+                }
+              },
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://wplacepixel.art/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }, null, 0)
+          }}
+        />
+
         {locales &&
           locales.map((loc) => (
             <link
@@ -116,7 +164,6 @@ export default async function RootLayout({
           <AppContextProvider>
             <ThemeProvider attribute="class" disableTransitionOnChange>
               {children}
-              <AdScript />
             </ThemeProvider>
           </AppContextProvider>
         </NextIntlClientProvider>
