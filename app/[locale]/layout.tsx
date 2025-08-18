@@ -79,6 +79,57 @@ export default async function RootLayout({
         {/* Explicit favicon.ico reference for better crawling */}
         <link rel="shortcut icon" href="/favicon.ico" />
 
+        {/* Ad Scripts */}
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              atOptions = {
+                'key' : '484b266368589cbc7157b77a607ca7c6',
+                'format' : 'iframe',
+                'height' : 250,
+                'width' : 300,
+                'params' : {}
+              };
+            `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="//www.highperformanceformat.com/484b266368589cbc7157b77a607ca7c6/invoke.js"
+        />
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+              atOptions = {
+                'key' : 'efb72b81a6c41cc892139a7c0703ece3',
+                'format' : 'iframe',
+                'height' : 600,
+                'width' : 160,
+                'params' : {}
+              };
+            `,
+          }}
+        />
+        <script
+          type="text/javascript"
+          src="//www.highperformanceformat.com/efb72b81a6c41cc892139a7c0703ece3/invoke.js"
+        />
+        <script
+          type="text/javascript"
+          src="//pl27443548.profitableratecpm.com/e2/f2/b3/e2f2b3c52a475b18d7e594410e8f30ed.js"
+        />
+        <script
+          type="text/javascript"
+          src="//pl27443649.profitableratecpm.com/0a/29/31/0a29317123f961ff064027de18159727.js"
+        />
+        <script
+          async
+          data-cfasync="false"
+          src="//pl27443576.profitableratecpm.com/9d425e34362e2f5bc87c3e554332d13f/invoke.js"
+        />
+
         {/* Structured Data for Search Engines */}
         <script
           type="application/ld+json"
@@ -145,6 +196,8 @@ export default async function RootLayout({
           <AppContextProvider>
             <ThemeProvider attribute="class" disableTransitionOnChange>
               {children}
+              {/* Ad Container */}
+              <div id="container-9d425e34362e2f5bc87c3e554332d13f"></div>
             </ThemeProvider>
           </AppContextProvider>
         </NextIntlClientProvider>
