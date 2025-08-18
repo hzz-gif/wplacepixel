@@ -15,12 +15,7 @@ export default function LegalLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
-        <script
-          src="https://fpyf8.com/88/tag.min.js"
-          data-zone="164097"
-          async
-          data-cfasync="false"
-        />
+
 
         {/* Google AdSense */}
         <script

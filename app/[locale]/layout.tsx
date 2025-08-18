@@ -11,6 +11,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
 import { createMetadataWithBase } from "@/lib/metadata";
+import AdScript from "@/components/AdScript";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -58,14 +59,9 @@ export default async function RootLayout({
     <html lang={locale} suppressHydrationWarning>
       <head suppressHydrationWarning>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
-        <script
-          src="https://fpyf8.com/88/tag.min.js"
-          data-zone="164097"
-          async
-          data-cfasync="false"
-          suppressHydrationWarning
-        />
+
+
+
         {googleAdsenseCode && (
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
@@ -81,34 +77,7 @@ export default async function RootLayout({
 
 
 
-        {/* Structured Data for Search Engines */}
-        <script
-          type="application/ld+json"
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "WebSite",
-              "name": "WPlace Pixel",
-              "alternateName": "WPlace Pixel Art Converter",
-              "url": "https://wplacepixel.art",
-              "description": "Transform images into pixel art for WPlace.live. Professional pixel art converter, tools, and guides for collaborative pixel art creation.",
-              "publisher": {
-                "@type": "Organization",
-                "name": "WPlace Pixel",
-                "logo": {
-                  "@type": "ImageObject",
-                  "url": "https://wplacepixel.art/favicon.svg"
-                }
-              },
-              "potentialAction": {
-                "@type": "SearchAction",
-                "target": "https://wplacepixel.art/search?q={search_term_string}",
-                "query-input": "required name=search_term_string"
-              }
-            })
-          }}
-        />
+
 
         {/* Google AdSense */}
         <script
@@ -147,6 +116,7 @@ export default async function RootLayout({
           <AppContextProvider>
             <ThemeProvider attribute="class" disableTransitionOnChange>
               {children}
+              <AdScript />
             </ThemeProvider>
           </AppContextProvider>
         </NextIntlClientProvider>
