@@ -1,5 +1,6 @@
 import WplaceApp from "@/components/blocks/wplace-app";
 import { getWplaceAppPage } from "@/services/page";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -16,7 +17,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/wplace-app`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: page.wplace_app?.title || "Wplace App - Mobile Pixel Art Creation for WPlace.live",
     description: page.wplace_app?.description || "Experience WPlace.live on mobile with the official Wplace App. Create collaborative pixel art on the go with touch-optimized controls, real-time collaboration, and seamless synchronization.",
     keywords: "Wplace App, WPlace.live mobile app, mobile pixel art, collaborative pixel art app, touch controls, real-time collaboration, pixel art creation, mobile drawing app",
@@ -45,7 +46,7 @@ export async function generateMetadata({
       description: page.wplace_app?.description || "Experience WPlace.live on mobile with the official Wplace App. Create collaborative pixel art on the go with touch-optimized controls, real-time collaboration, and seamless synchronization.",
       images: ["/imgs/wplace-app-hero.png"],
     },
-  };
+  });
 }
 
 export default async function WplaceAppPage({

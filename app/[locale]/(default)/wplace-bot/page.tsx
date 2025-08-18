@@ -1,5 +1,6 @@
 import WplaceBot from "@/components/blocks/wplace-bot";
 import { getWplaceBotPage } from "@/services/page";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -16,7 +17,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/wplace-bot`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: page.wplace_bot?.title || "Wplace Bot - Automated Pixel Art Creation for WPlace.live",
     description: page.wplace_bot?.description || "Automate your WPlace.live pixel art creation with Wplace Bot - a powerful browser-based automation tool for efficient and precise collaborative pixel art projects.",
     keywords: "Wplace Bot, WPlace.live automation, pixel art bot, browser automation, pixel art creation, automated pixel placement, WPlace.live tools, pixel art scripts",
@@ -42,7 +43,7 @@ export async function generateMetadata({
       description: page.wplace_bot?.description || "Automate your WPlace.live pixel art creation with Wplace Bot",
       images: ["/imgs/wplace-bot-hero.png"],
     },
-  };
+  });
 }
 
 export default async function WplaceBotPage({

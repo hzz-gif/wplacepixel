@@ -6,7 +6,7 @@ import Feature2 from "@/components/blocks/feature2";
 import Feature3 from "@/components/blocks/feature3";
 import Hero from "@/components/blocks/hero";
 import PixelConverter from "@/components/blocks/pixel-converter";
-import Showcase from "@/components/blocks/showcase";
+
 import Stats from "@/components/blocks/stats";
 import Testimonial from "@/components/blocks/testimonial";
 
@@ -51,7 +51,7 @@ export default async function LandingPage({
       {page.benefit && <Feature2 section={page.benefit} />}
       {page.usage && <Feature3 section={page.usage} />}
       {page.feature && <Feature section={page.feature} />}
-      {page.showcase && <Showcase section={page.showcase} />}
+
       {page.stats && <Stats section={page.stats} />}
       {page.testimonial && <Testimonial section={page.testimonial} />}
       {page.faq && <FAQ section={page.faq} />}

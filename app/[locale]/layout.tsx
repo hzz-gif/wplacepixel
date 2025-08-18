@@ -10,6 +10,7 @@ import { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@/providers/theme";
 import { cn } from "@/lib/utils";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -21,17 +22,24 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const { locale } = await params;
   const t = await getTranslations();
 
-  return {
+  return createMetadataWithBase({
     title: {
       template: `%s`,
       default: t("metadata.title") || "",
     },
     description: t("metadata.description") || "",
     keywords: t("metadata.keywords") || "",
-  };
+    icons: {
+      icon: [
+        '/favicon.ico',
+        { url: '/favicon.svg', sizes: 'any' },
+      ],
+      shortcut: '/favicon.ico',
+      apple: '/favicon.svg',
+    },
+  });
 }
 
 export default async function RootLayout({
@@ -62,15 +70,14 @@ export default async function RootLayout({
           <meta name="google-adsense-account" content={googleAdsenseCode} />
         )}
 
-        {/* Favicon and Icons */}
-        <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        {/* Favicon and Icons - Simplified but effective */}
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.svg" />
         <link rel="manifest" href="/manifest.json" />
 
-        {/* Additional icon sizes for better search engine recognition */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.svg" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.svg" />
+        {/* Explicit favicon.ico reference for better crawling */}
+        <link rel="shortcut icon" href="/favicon.ico" />
 
         {/* Structured Data for Search Engines */}
         <script

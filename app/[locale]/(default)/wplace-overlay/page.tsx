@@ -1,5 +1,6 @@
 import WplaceOverlay from "@/components/blocks/wplace-overlay";
 import { getWplaceOverlayPage } from "@/services/page";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -16,7 +17,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/wplace-overlay`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: page.wplace_overlay?.title || "Wplace Overlay Pro - Free TamperMonkey Script for WPlace.live",
     description: page.wplace_overlay?.description || "Get the best Wplace Overlay tool! Free TamperMonkey script with template overlays, color matching & team collaboration. Install in 2 minutes!",
     keywords: "Wplace Overlay, WPlace.live, userscript, template overlay, pixel art, Tampermonkey, Greasemonkey, collaborative art, color matching, pixel art tools",
@@ -42,7 +43,7 @@ export async function generateMetadata({
       description: page.wplace_overlay?.description || "Get the best Wplace Overlay tool! Free TamperMonkey script with template overlays, color matching & team collaboration.",
       images: ["/imgs/wplace-overlay-hero.png"],
     },
-  };
+  });
 }
 
 export default async function WplaceOverlayPage({

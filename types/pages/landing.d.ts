@@ -20,9 +20,7 @@ export interface LandingPage {
   footer?: Footer;
 }
 
-export interface ShowcasePage {
-  showcase?: Section;
-}
+
 
 export interface SourcesPage {
   sources?: Section;
@@ -110,4 +108,8 @@ export interface GrassWonderPage {
       }>;
     };
   };
+}
+
+export interface BlueMarblePage {
+  blue_marble?: Section;
 }

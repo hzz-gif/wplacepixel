@@ -1,12 +1,10 @@
-import { LandingPage, ShowcasePage, SourcesPage, BlogPage, WplaceOverlayPage, WplaceBotPage, IsWplaceDownPage, WplaceAppPage, GrassWonderPage } from "@/types/pages/landing";
+import { LandingPage, SourcesPage, BlogPage, WplaceOverlayPage, WplaceBotPage, IsWplaceDownPage, WplaceAppPage, GrassWonderPage, BlueMarblePage } from "@/types/pages/landing";
 
 export async function getLandingPage(locale: string): Promise<LandingPage> {
   return (await getPage("landing", locale)) as LandingPage;
 }
 
-export async function getShowcasePage(locale: string): Promise<ShowcasePage> {
-  return (await getPage("showcase", locale)) as ShowcasePage;
-}
+
 
 export async function getSourcesPage(locale: string): Promise<SourcesPage> {
   return (await getPage("sources", locale)) as SourcesPage;
@@ -36,10 +34,14 @@ export async function getGrassWonderPage(locale: string): Promise<GrassWonderPag
   return (await getPage("grass-wonder", locale)) as GrassWonderPage;
 }
 
+export async function getBlueMarblePage(locale: string): Promise<BlueMarblePage> {
+  return (await getPage("blue-marble", locale)) as BlueMarblePage;
+}
+
 export async function getPage(
   name: string,
   locale: string
-): Promise<LandingPage | ShowcasePage | SourcesPage | BlogPage | WplaceOverlayPage | WplaceBotPage | IsWplaceDownPage | WplaceAppPage | GrassWonderPage> {
+): Promise<LandingPage | SourcesPage | BlogPage | WplaceOverlayPage | WplaceBotPage | IsWplaceDownPage | WplaceAppPage | GrassWonderPage | BlueMarblePage> {
   try {
     if (locale === "zh-CN") {
       locale = "zh";

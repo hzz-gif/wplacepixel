@@ -1,5 +1,6 @@
 import IsWplaceDown from "@/components/blocks/is-wplace-down";
 import { getIsWplaceDownPage } from "@/services/page";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -16,7 +17,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/is-wplace-down`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: page.is_wplace_down?.title || "🔍 Is WPlace Down? Check Live Status Now!",
     description: page.is_wplace_down?.description || "Instantly check if WPlace.live is working! Real-time status updates, uptime stats & instant alerts. Never miss a pixel again! ✨",
     alternates: {
@@ -41,7 +42,7 @@ export async function generateMetadata({
       description: page.is_wplace_down?.description || "Instantly check if WPlace.live is working! Real-time status updates, uptime stats & instant alerts.",
       images: ["/imgs/wplace-status-monitor.png"],
     },
-  };
+  });
 }
 
 export default async function IsWplaceDownPage({

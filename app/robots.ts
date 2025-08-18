@@ -7,7 +7,12 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
+        allow: [
+          '/',
+          '/favicon.ico',
+          '/favicon.svg',
+          '/manifest.json',
+        ],
         disallow: [
           '/api/',
           '/_next/',

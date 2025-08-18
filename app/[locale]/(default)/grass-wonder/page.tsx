@@ -1,5 +1,6 @@
 import GrassWonder from "@/components/blocks/grass-wonder";
 import { getGrassWonderPage } from "@/services/page";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -16,7 +17,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/grass-wonder`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: page.metadata.title,
     description: page.metadata.description,
     keywords: page.metadata.keywords,
@@ -45,7 +46,7 @@ export async function generateMetadata({
       description: page.metadata.description,
       images: ["https://wplacepixel.art/imgs/grass-wonder-hero.png"],
     },
-  };
+  });
 }
 
 export default async function GrassWonderPage({

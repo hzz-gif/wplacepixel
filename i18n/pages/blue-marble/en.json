@@ -1,0 +1,83 @@
+{
+  "blue_marble": {
+    "name": "blue-marble",
+    "title": "Blue Marble - Advanced Pixel Art Tool for WPlace.live | WPlace Pixel",
+    "description": "Discover Blue Marble, the revolutionary userscript that transforms your WPlace.live pixel art experience. Advanced template overlay, precise coordinates, and professional tools for collaborative pixel art creation.",
+    "hero": {
+      "badge": "🎨 Professional Pixel Art Tool",
+      "title": "Blue Marble",
+      "subtitle": "The ultimate userscript for enhanced pixel art creation on WPlace.live. Transform your collaborative pixel art experience with advanced template overlay, precise coordinate systems, and professional-grade tools.",
+      "cta": {
+        "primary": {
+          "title": "📥 Download Blue Marble",
+          "url": "#download"
+        },
+        "secondary": {
+          "title": "🌍 Visit WPlace.live",
+          "url": "https://wplace.live",
+          "target": "_blank"
+        }
+      }
+    },
+    "about": {
+      "title": "🎯 What is Blue Marble?",
+      "content": [
+        "Blue Marble is a powerful, free, and open-source userscript designed specifically for WPlace.live that revolutionizes your pixel art creation experience. Named after NASA's famous Blue Marble Earth image, this tool provides advanced template overlay functionality, precise coordinate systems, and enhanced visual aids to help you create stunning collaborative pixel art with unprecedented accuracy.",
+        "Think of Blue Marble as your digital tracing paper – it lets you place your reference image directly on top of the canvas, so you can easily follow your design without constantly looking back and forth between multiple windows. Whether you're working on complex artwork, participating in collaborative projects, or simply want more precision in your pixel placement, Blue Marble is the essential tool for serious WPlace.live artists.",
+        "The Blue Marble userscript has been developed with the collaborative nature of WPlace.live in mind. Blue Marble enables artists to work together more effectively by providing shared coordinate systems and template alignment features. With Blue Marble, teams can coordinate their pixel art projects with precision, ensuring that every pixel is placed exactly where it should be. Blue Marble has become an indispensable tool for the WPlace.live community, transforming how collaborative pixel art is created."
+      ]
+    },
+    "features": {
+      "title": "✨ Key Features",
+      "items": [
+        {
+          "icon": "🖼️",
+          "title": "Template Overlay System",
+          "description": "Display custom PNG/WEBP templates directly on the canvas with perfect alignment and transparent pixel support."
+        },
+        {
+          "icon": "📍",
+          "title": "Advanced Coordinate System",
+          "description": "Precise tile and pixel coordinate tracking with auto-fill functionality for perfect template placement."
+        },
+        {
+          "icon": "🎯",
+          "title": "Pin-Point Accuracy",
+          "description": "Auto-fill coordinates with the pin tool and maintain perfect alignment across large projects."
+        },
+        {
+          "icon": "🔧",
+          "title": "Customizable Settings",
+          "description": "Extensive configuration options for personalized workflow and performance optimization."
+        },
+        {
+          "icon": "📱",
+          "title": "Cross-Platform Support",
+          "description": "Works seamlessly on desktop and mobile devices across multiple browsers."
+        },
+        {
+          "icon": "🌐",
+          "title": "Multi-Browser Compatibility",
+          "description": "Full support for Chrome, Edge, and partial support for Firefox browsers."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "🚀 Why Use Blue Marble on WPlace.live?",
+      "sections": [
+        {
+          "title": "Enhanced Pixel Art Creation",
+          "content": "Blue Marble transforms WPlace.live from a simple pixel canvas into a professional pixel art studio. The Blue Marble template overlay system allows you to create complex artwork, collaborate effectively with team members, maintain consistency across large projects, and save time by reducing manual pixel counting and placement errors. Blue Marble makes pixel art creation more accessible and enjoyable for artists of all skill levels."
+        },
+        {
+          "title": "Professional-Grade Tools",
+          "content": "Unlike basic pixel art tools, Blue Marble provides transparent pixel support with the special #deface color system, real-time coordinate display for exact positioning, template alignment with precise top-left corner system, and visual overlay management with toggle functionality. Blue Marble's advanced features set it apart from other pixel art tools, making it the preferred choice for serious WPlace.live artists."
+        }
+      ],
+      "community_impact": {
+        "title": "Blue Marble Community Impact",
+        "content": "Since its introduction, Blue Marble has revolutionized the WPlace.live community. Artists using Blue Marble report significantly improved workflow efficiency and higher quality pixel art creations. Blue Marble has enabled the creation of some of the most impressive collaborative artworks on WPlace.live, demonstrating the power of combining advanced tools with creative vision. The Blue Marble community continues to grow, with new features and improvements being added regularly based on user feedback."
+      }
+    }
+  }
+}

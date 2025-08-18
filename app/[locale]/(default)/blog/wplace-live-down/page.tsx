@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import BlogPost from "@/components/blocks/blog-post";
 import { getBlogPost } from "@/services/blog";
+import { createMetadataWithBase } from "@/lib/metadata";
 
 export const runtime = 'edge';
 
@@ -26,7 +27,7 @@ export async function generateMetadata({
     canonicalUrl = `https://wplacepixel.art/${locale}/blog/${slug}`;
   }
 
-  return {
+  return createMetadataWithBase({
     title: post.title,
     description: post.description,
     keywords: "WPlace blog, pixel art guides, WPlace.live news, pixel art tutorials, collaborative art updates, WPlace community",
@@ -41,7 +42,7 @@ export async function generateMetadata({
       publishedTime: post.date,
       authors: ["WplacePixel.art"],
     },
-  };
+  });
 }
 
 export default async function BlogPostPage({
