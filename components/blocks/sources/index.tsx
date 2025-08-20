@@ -52,7 +52,8 @@ export default function Sources({ section }: SourcesProps) {
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">{section.title}</h1>
 
-          {/* Banner Ad after H1 */}
+          {/* COMMENTED OUT - Banner Ad after H1 */}
+          {/*
           <div className="flex justify-center my-6">
             <div
               style={{
@@ -77,12 +78,14 @@ export default function Sources({ section }: SourcesProps) {
               }}
             />
           </div>
+          */}
 
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             {section.description}
           </p>
 
-          {/* Bottom Hero Ad */}
+          {/* COMMENTED OUT - Bottom Hero Ad */}
+          {/*
           <div className="flex justify-center mt-8">
             <div
               dangerouslySetInnerHTML={{
@@ -93,6 +96,7 @@ export default function Sources({ section }: SourcesProps) {
               }}
             />
           </div>
+          */}
         </div>
 
         <div className="space-y-12">

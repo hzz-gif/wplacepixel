@@ -3,7 +3,8 @@
 export default function SideAds() {
   return (
     <>
-      {/* Left Side Ad - 300x250 */}
+      {/* COMMENTED OUT - Left Side Ad - 300x250 */}
+      {/*
       <div className="hidden xl:block fixed left-2 top-32 z-20">
         <div
           style={{
@@ -31,8 +32,10 @@ export default function SideAds() {
           }}
         />
       </div>
+      */}
 
-      {/* Right Side Ad - 160x300 */}
+      {/* COMMENTED OUT - Right Side Ad - 160x300 */}
+      {/*
       <div className="hidden xl:block fixed right-2 top-32 z-20">
         <div
           style={{
@@ -60,6 +63,7 @@ export default function SideAds() {
           }}
         />
       </div>
+      */}
     </>
   );
 }

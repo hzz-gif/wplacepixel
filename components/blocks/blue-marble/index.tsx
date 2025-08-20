@@ -27,7 +27,8 @@ export default function BlueMarble({ section }: { section: any }) {
               {hero.title}
             </h1>
 
-            {/* Banner Ad after H1 */}
+            {/* COMMENTED OUT - Banner Ad after H1 */}
+            {/*
             <div className="flex justify-center my-6">
               <div
                 style={{
@@ -52,6 +53,7 @@ export default function BlueMarble({ section }: { section: any }) {
                 }}
               />
             </div>
+            */}
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
               {hero.subtitle}
             </p>
@@ -76,7 +78,8 @@ export default function BlueMarble({ section }: { section: any }) {
               )}
             </div>
 
-            {/* Bottom Hero Ad */}
+            {/* COMMENTED OUT - Bottom Hero Ad */}
+            {/*
             <div className="flex justify-center mt-8">
               <div
                 dangerouslySetInnerHTML={{
@@ -87,6 +90,7 @@ export default function BlueMarble({ section }: { section: any }) {
                 }}
               />
             </div>
+            */}
           </div>
         )}
 

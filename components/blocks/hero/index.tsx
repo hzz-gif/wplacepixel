@@ -58,7 +58,8 @@ export default function Hero({ hero }: { hero: HeroType }) {
               </h1>
             )}
 
-            {/* Banner Ad after H1 */}
+            {/* COMMENTED OUT - Banner Ad after H1 */}
+            {/*
             <div className="flex justify-center my-6">
               <div
                 style={{
@@ -83,6 +84,7 @@ export default function Hero({ hero }: { hero: HeroType }) {
                 }}
               />
             </div>
+            */}
 
             <p
               className="m mx-auto max-w-3xl text-muted-foreground lg:text-xl"

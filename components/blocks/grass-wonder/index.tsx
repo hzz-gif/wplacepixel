@@ -23,7 +23,8 @@ export default function GrassWonder() {
                 🌱 WPlace Grass Wonder
               </h1>
 
-              {/* Banner Ad after H1 */}
+              {/* COMMENTED OUT - Banner Ad after H1 */}
+              {/*
               <div className="flex justify-center my-6">
                 <div
                   style={{
@@ -48,6 +49,7 @@ export default function GrassWonder() {
                   }}
                 />
               </div>
+              */}
               <p className="text-xl text-gray-600 mb-4">
                 A Beautiful Tribute in WPlace.live
               </p>
@@ -78,7 +80,8 @@ export default function GrassWonder() {
             </div>
           </div>
 
-          {/* Bottom Hero Ad */}
+          {/* COMMENTED OUT - Bottom Hero Ad */}
+          {/*
           <div className="flex justify-center mt-8">
             <div
               dangerouslySetInnerHTML={{
@@ -89,6 +92,7 @@ export default function GrassWonder() {
               }}
             />
           </div>
+          */}
         </div>
       </section>
 
