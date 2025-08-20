@@ -82,7 +82,7 @@
       ]
     },
     "use_cases": {
-      "title": "Popular Use Cases",
+      "title": "Wplace Bot Popular Use Cases",
       "description": "Discover how communities and artists use Wplace Bot for their projects",
       "cases": [
         {
@@ -119,7 +119,7 @@
     },
 
     "safety": {
-      "title": "Safety & Best Practices",
+      "title": "Wplace Bot Safety & Best Practices",
       "description": "Important guidelines for responsible automation usage",
       "guidelines": [
         {
@@ -146,7 +146,7 @@
     },
 
     "faq": {
-      "title": "Frequently Asked Questions",
+      "title": "Wplace Bot Frequently Asked Questions",
       "items": [
         {
           "question": "Is using Wplace Bot allowed on WPlace.live?",

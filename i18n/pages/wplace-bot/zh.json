@@ -83,7 +83,7 @@
       ]
     },
     "use_cases": {
-      "title": "热门使用场景",
+      "title": "Wplace 机器人热门使用场景",
       "description": "了解社区和艺术家如何在项目中使用 Wplace 机器人",
       "cases": [
         {
@@ -120,7 +120,7 @@
     },
 
     "safety": {
-      "title": "安全与最佳实践",
+      "title": "Wplace 机器人安全与最佳实践",
       "description": "负责任使用自动化的重要指导原则",
       "guidelines": [
         {
@@ -147,7 +147,7 @@
     },
 
     "faq": {
-      "title": "常见问题",
+      "title": "Wplace 机器人常见问题",
       "items": [
         {
           "question": "在 WPlace.live 上使用 Wplace 机器人是否被允许？",
