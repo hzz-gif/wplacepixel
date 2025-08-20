@@ -56,8 +56,8 @@ export default async function RootLayout({
   const googleAdsenseCode = process.env.NEXT_PUBLIC_GOOGLE_ADCODE || "";
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <head suppressHydrationWarning>
+    <html lang={locale}>
+      <head>
         {/* Monetag Scripts */}
         <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
         <script
@@ -65,19 +65,16 @@ export default async function RootLayout({
           data-zone="164097"
           async
           data-cfasync="false"
-          suppressHydrationWarning
         />
         <script
           src="https://fpyf8.com/88/tag.min.js"
           data-zone="164868"
           async
           data-cfasync="false"
-          suppressHydrationWarning
         />
 
         {/* Debug script for Monetag */}
         <script
-          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: `
               console.log('Monetag scripts loaded');
@@ -114,7 +111,6 @@ export default async function RootLayout({
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5148478102061529"
           crossOrigin="anonymous"
-          suppressHydrationWarning
         />
 
         {/* Plausible Analytics */}
@@ -122,13 +118,11 @@ export default async function RootLayout({
           defer
           data-domain="wplacepixel.art"
           src="https://plausible.io/js/script.js"
-          suppressHydrationWarning
         />
 
         {/* Structured Data for Search Engines */}
         <script
           type="application/ld+json"
-          suppressHydrationWarning
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
