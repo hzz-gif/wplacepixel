@@ -466,8 +466,7 @@ export default function PixelConverter({
               </CardContent>
             </Card>
 
-            {/* COMMENTED OUT - Right Bottom Corner Ad */}
-            {/*
+            {/* Right Bottom Corner Ad */}
             <div className="absolute bottom-0 right-0 z-10">
               <div
                 style={{
@@ -491,7 +490,6 @@ export default function PixelConverter({
                 }}
               />
             </div>
-            */}
           </div>
         </div>
 

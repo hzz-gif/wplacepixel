@@ -58,36 +58,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head suppressHydrationWarning>
-        {/* Monetag Scripts */}
-        <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
-        <script
-          src="https://fpyf8.com/88/tag.min.js"
-          data-zone="164097"
-          async
-          data-cfasync="false"
-          suppressHydrationWarning
-        />
-        <script
-          src="https://fpyf8.com/88/tag.min.js"
-          data-zone="164868"
-          async
-          data-cfasync="false"
-          suppressHydrationWarning
-        />
-
-        {/* Debug script for Monetag */}
-        <script
-          suppressHydrationWarning
-          dangerouslySetInnerHTML={{
-            __html: `
-              console.log('Monetag scripts loaded');
-              window.addEventListener('load', function() {
-                console.log('Page loaded, Monetag should be active');
-              });
-            `
-          }}
-        />
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
@@ -165,6 +135,9 @@ export default async function RootLayout({
           ))}
         <link rel="alternate" hrefLang="x-default" href={webUrl} />
 
+        {/* Monetag Scripts */}
+        <meta name="monetag" content="913e7ac1184047967ad1b1ce0efb654f" />
+        <script src="https://fpyf8.com/88/tag.min.js" data-zone="164097" async data-cfasync="false"></script>
       </head>
       <body
         className={cn(

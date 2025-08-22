@@ -16,8 +16,7 @@ export default function Blog({ section }: BlogProps) {
         <div className="text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">{section.title}</h1>
 
-          {/* COMMENTED OUT - Banner Ad after H1 */}
-          {/*
+          {/* Banner Ad after H1 */}
           <div className="flex justify-center my-6">
             <div
               style={{
@@ -42,7 +41,6 @@ export default function Blog({ section }: BlogProps) {
               }}
             />
           </div>
-          */}
 
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-12">
             {section.description}

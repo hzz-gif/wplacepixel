@@ -37,8 +37,7 @@ export default function BlogPost({ post }: BlogPostProps) {
             {post.title}
           </h1>
 
-          {/* COMMENTED OUT - Banner Ad after H1 */}
-          {/*
+          {/* Banner Ad after H1 */}
           <div className="flex justify-center my-6">
             <div
               style={{
@@ -63,7 +62,6 @@ export default function BlogPost({ post }: BlogPostProps) {
               }}
             />
           </div>
-          */}
           
           <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
             {post.description}

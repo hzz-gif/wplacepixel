@@ -37,8 +37,7 @@ export default function WplaceApp({ section }: { section: any }) {
               {hero.title}
             </h1>
 
-            {/* COMMENTED OUT - Banner Ad after H1 */}
-            {/*
+            {/* Banner Ad after H1 */}
             <div className="flex justify-center my-6">
               <div
                 style={{
@@ -63,7 +62,6 @@ export default function WplaceApp({ section }: { section: any }) {
                 }}
               />
             </div>
-            */}
             <p className="text-xl text-gray-600 mb-4">
               {hero.subtitle}
             </p>
@@ -71,8 +69,7 @@ export default function WplaceApp({ section }: { section: any }) {
               {hero.description}
             </p>
 
-            {/* COMMENTED OUT - Bottom Hero Ad */}
-            {/*
+            {/* Bottom Hero Ad */}
             <div className="flex justify-center mt-8">
               <div
                 dangerouslySetInnerHTML={{
@@ -83,7 +80,6 @@ export default function WplaceApp({ section }: { section: any }) {
                 }}
               />
             </div>
-            */}
           </div>
         </section>
       )}

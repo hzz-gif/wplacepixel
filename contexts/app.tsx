@@ -22,11 +22,15 @@ export const AppContextProvider = ({ children }: { children: ReactNode }) => {
     return "";
   });
 
+  const [showFeedback, setShowFeedback] = useState<boolean>(false);
+
   return (
     <AppContext.Provider
       value={{
         theme,
         setTheme,
+        showFeedback,
+        setShowFeedback,
       }}
     >
       {children}
