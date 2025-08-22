@@ -46,8 +46,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFreq: 'daily' as const,
     },
     {
-      url: '/blue-marble',
-      priority: 0.6,
+      url: '/blue-marble-wplace',
+      priority: 0.8,
+      changeFreq: 'monthly' as const,
+    },
+    {
+      url: '/grass-wonder',
+      priority: 0.7,
       changeFreq: 'monthly' as const,
     },
     {

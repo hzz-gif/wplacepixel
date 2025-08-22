@@ -148,9 +148,9 @@ export default function BlueMarble({ section }: { section: any }) {
         {/* Download Section */}
         <div id="download" className="bg-card/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-border/50 shadow-lg mb-12">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-6">📥 Download Blue Marble</h2>
+            <h2 className="text-3xl font-bold mb-6">📥 Download Blue Marble Wplace</h2>
             <p className="text-lg text-muted-foreground mb-8 max-w-3xl mx-auto">
-              Get started with Blue Marble today! This powerful userscript is completely free and open-source.
+              Get started with Blue Marble Wplace today! This powerful userscript is completely free and open-source.
               Download it from our official GitHub repository and transform your WPlace.live pixel art experience.
             </p>
 

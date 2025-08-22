@@ -9,6 +9,14 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: '*',
         allow: [
           '/',
+          '/blue-marble-wplace',
+          '/wplace-overlay',
+          '/wplace-app',
+          '/wplace-bot',
+          '/is-wplace-down',
+          '/grass-wonder',
+          '/sources',
+          '/blog',
           '/favicon.ico',
           '/favicon.svg',
           '/manifest.json',
@@ -20,25 +28,26 @@ export default function robots(): MetadataRoute.Robots {
           '/*?*q=', // Disallow search query parameters
         ],
       },
+      // AI bots are now allowed to crawl the site
       {
         userAgent: 'GPTBot',
-        disallow: '/',
+        allow: '/',
       },
       {
         userAgent: 'ChatGPT-User',
-        disallow: '/',
+        allow: '/',
       },
       {
         userAgent: 'CCBot',
-        disallow: '/',
+        allow: '/',
       },
       {
         userAgent: 'anthropic-ai',
-        disallow: '/',
+        allow: '/',
       },
       {
         userAgent: 'Claude-Web',
-        disallow: '/',
+        allow: '/',
       },
     ],
     sitemap: `${baseUrl}/sitemap.xml`,

@@ -1,15 +1,15 @@
 {
   "blue_marble": {
-    "name": "blue-marble",
-    "title": "Blue Marble - WPlace.live 高级像素艺术工具 | WPlace Pixel",
-    "description": "探索 Blue Marble，这个革命性的用户脚本将改变您的 WPlace.live 像素艺术体验。高级模板覆盖、精确坐标和专业工具，用于协作像素艺术创作。",
+    "name": "blue-marble-wplace",
+    "title": "Blue Marble Wplace - WPlace.live 高级像素艺术工具 | WPlace Pixel",
+    "description": "探索 Blue Marble Wplace，这个革命性的用户脚本将改变您的 WPlace.live 像素艺术体验。高级模板覆盖、精确坐标和专业工具，用于协作像素艺术创作。",
     "hero": {
       "badge": "🎨 专业像素艺术工具",
-      "title": "Blue Marble",
+      "title": "Blue Marble Wplace",
       "subtitle": "WPlace.live 上增强像素艺术创作的终极用户脚本。通过高级模板覆盖、精确坐标系统和专业级工具，改变您的协作像素艺术体验。",
       "cta": {
         "primary": {
-          "title": "📥 下载 Blue Marble",
+          "title": "📥 下载 Blue Marble Wplace",
           "url": "#download"
         },
         "secondary": {
@@ -20,11 +20,11 @@
       }
     },
     "about": {
-      "title": "🎯 什么是 Blue Marble？",
+      "title": "🎯 什么是 Blue Marble Wplace？",
       "content": [
-        "Blue Marble 是一个强大、免费且开源的用户脚本，专为 WPlace.live 设计，彻底改变您的像素艺术创作体验。以 NASA 著名的蓝色弹珠地球图像命名，这个工具提供高级模板覆盖功能、精确坐标系统和增强的视觉辅助，帮助您以前所未有的精度创建令人惊叹的协作像素艺术。",
-        "将 Blue Marble 想象成您的数字描图纸 - 它让您可以将参考图像直接放置在画布顶部，这样您就可以轻松跟随您的设计，而无需在多个窗口之间不断来回查看。无论您是在处理复杂的艺术作品、参与协作项目，还是只是想在像素放置中获得更高的精度，Blue Marble 都是认真的 WPlace.live 艺术家的必备工具。",
-        "Blue Marble 用户脚本的开发考虑了 WPlace.live 的协作特性。Blue Marble 通过提供共享坐标系统和模板对齐功能，使艺术家能够更有效地协作。使用 Blue Marble，团队可以精确协调他们的像素艺术项目，确保每个像素都放置在应该放置的确切位置。Blue Marble 已成为 WPlace.live 社区不可或缺的工具，改变了协作像素艺术的创作方式。"
+        "Blue Marble Wplace 是一个强大、免费且开源的用户脚本，专为 WPlace.live 设计，彻底改变您的像素艺术创作体验。以 NASA 著名的蓝色弹珠地球图像命名，这个工具提供高级模板覆盖功能、精确坐标系统和增强的视觉辅助，帮助您以前所未有的精度创建令人惊叹的协作像素艺术。",
+        "将 Blue Marble Wplace 想象成您的数字描图纸 - 它让您可以将参考图像直接放置在画布顶部，这样您就可以轻松跟随您的设计，而无需在多个窗口之间不断来回查看。无论您是在处理复杂的艺术作品、参与协作项目，还是只是想在像素放置中获得更高的精度，Blue Marble Wplace 都是认真的 WPlace.live 艺术家的必备工具。",
+        "Blue Marble Wplace 用户脚本的开发考虑了 WPlace.live 的协作特性。Blue Marble Wplace 通过提供共享坐标系统和模板对齐功能，使艺术家能够更有效地协作。使用 Blue Marble Wplace，团队可以精确协调他们的像素艺术项目，确保每个像素都放置在应该放置的确切位置。Blue Marble Wplace 已成为 WPlace.live 社区不可或缺的工具，改变了协作像素艺术的创作方式。"
       ]
     },
     "features": {
@@ -63,20 +63,20 @@
       ]
     },
     "benefits": {
-      "title": "🚀 为什么在 WPlace.live 上使用 Blue Marble？",
+      "title": "🚀 为什么在 WPlace.live 上使用 Blue Marble Wplace？",
       "sections": [
         {
           "title": "增强像素艺术创作",
-          "content": "Blue Marble 将 WPlace.live 从简单的像素画布转变为专业的像素艺术工作室。Blue Marble 模板覆盖系统允许您创建复杂的艺术作品，与团队成员有效协作，在大型项目中保持一致性，并通过减少手动像素计数和放置错误来节省时间。Blue Marble 使各种技能水平的艺术家都能更容易、更愉快地创作像素艺术。"
+          "content": "Blue Marble Wplace 将 WPlace.live 从简单的像素画布转变为专业的像素艺术工作室。Blue Marble Wplace 模板覆盖系统允许您创建复杂的艺术作品，与团队成员有效协作，在大型项目中保持一致性，并通过减少手动像素计数和放置错误来节省时间。Blue Marble Wplace 使各种技能水平的艺术家都能更容易、更愉快地创作像素艺术。"
         },
         {
           "title": "专业级工具",
-          "content": "与基本的像素艺术工具不同，Blue Marble 提供特殊 #deface 颜色系统的透明像素支持、用于精确定位的实时坐标显示、具有精确左上角系统的模板对齐，以及具有切换功能的视觉覆盖管理。Blue Marble 的高级功能使其在其他像素艺术工具中脱颖而出，成为认真的 WPlace.live 艺术家的首选。"
+          "content": "与基本的像素艺术工具不同，Blue Marble Wplace 提供特殊 #deface 颜色系统的透明像素支持、用于精确定位的实时坐标显示、具有精确左上角系统的模板对齐，以及具有切换功能的视觉覆盖管理。Blue Marble Wplace 的高级功能使其在其他像素艺术工具中脱颖而出，成为认真的 WPlace.live 艺术家的首选。"
         }
       ],
       "community_impact": {
-        "title": "Blue Marble 社区影响",
-        "content": "自推出以来，Blue Marble 已经彻底改变了 WPlace.live 社区。使用 Blue Marble 的艺术家报告工作流程效率显著提高，像素艺术创作质量更高。Blue Marble 使 WPlace.live 上一些最令人印象深刻的协作艺术作品得以创建，展示了将高级工具与创意愿景相结合的力量。Blue Marble 社区持续增长，基于用户反馈定期添加新功能和改进。"
+        "title": "Blue Marble Wplace 社区影响",
+        "content": "自推出以来，Blue Marble Wplace 已经彻底改变了 WPlace.live 社区。使用 Blue Marble Wplace 的艺术家报告工作流程效率显著提高，像素艺术创作质量更高。Blue Marble Wplace 使 WPlace.live 上一些最令人印象深刻的协作艺术作品得以创建，展示了将高级工具与创意愿景相结合的力量。Blue Marble Wplace 社区持续增长，基于用户反馈定期添加新功能和改进。"
       }
     }
   }
